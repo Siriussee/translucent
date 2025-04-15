@@ -3,7 +3,7 @@
 ## Overview
 
 1. Reentrancy: [Reentrancy Redux: The Evolution of Real-World Reentrancy Attacks on Blockchains](https://zenodo.org/records/15112729)
-    - Total attack: 74
+    - Total attack: 71
     - Total attack transactions: 73 (Applicable, only Ethereum)
     - Total trace: 29,052
 
