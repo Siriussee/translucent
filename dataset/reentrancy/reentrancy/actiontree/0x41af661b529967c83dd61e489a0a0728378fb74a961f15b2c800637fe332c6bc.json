@@ -1,0 +1,231 @@
+{
+    "transaction_hash": "0x41af661b529967c83dd61e489a0a0728378fb74a961f15b2c800637fe332c6bc",
+    "type": "function",
+    "action": "exploit",
+    "ignored": false,
+    "parameters": [
+        [
+            "uint256"
+        ]
+    ],
+    "values": [
+        2
+    ],
+    "values_raw": [
+        "0000000000000000000000000000000000000000000000000000000000000002"
+    ],
+    "sender": "0xcf267ea3f1ebae3c29fea0a3253f94f3122c2199",
+    "receiver": "0xc5918a927c4fb83fe99e30d6f66707f4b396900e",
+    "hex": "0x58f69e07",
+    "nodes": [
+        {
+            "id": "0",
+            "type": "function",
+            "call_type": "call",
+            "action": "createChannel",
+            "ignored": false,
+            "parameters": [
+                [
+                    "bytes32",
+                    "address",
+                    "uint256",
+                    "address",
+                    "uint256[2]"
+                ]
+            ],
+            "values": [
+                "4e03657aea45a94fc7d47ba826c8d667c0d1e6e33a64a036ec44f58fa12d6c45",
+                "0xcf267ea3f1ebae3c29fea0a3253f94f3122c2199",
+                115792089237316195423570985008687907853269984665640564039457584007911590753874,
+                "0xc5918a927c4fb83fe99e30d6f66707f4b396900e",
+                761572791078387201
+            ],
+            "values_raw": [
+                "4e03657aea45a94fc7d47ba826c8d667c0d1e6e33a64a036ec44f58fa12d6c45",
+                "000000000000000000000000cf267ea3f1ebae3c29fea0a3253f94f3122c2199",
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffa4467652",
+                "000000000000000000000000c5918a927c4fb83fe99e30d6f66707f4b396900e",
+                "0000000000000000000000000000000000000000000000000a91a66b22d47e01",
+                "0000000000000000000000000000000000000000000000000000000000000001"
+            ],
+            "sender": "0xc5918a927c4fb83fe99e30d6f66707f4b396900e",
+            "receiver": "0xf91546835f756da0c10cfa0cda95b15577b84aa7",
+            "hex": "0xaeba142c",
+            "nodes": [
+                {
+                    "id": "0_0",
+                    "type": "function",
+                    "call_type": "call",
+                    "action": "transferFrom",
+                    "ignored": false,
+                    "parameters": [
+                        [
+                            "address",
+                            "address",
+                            "uint256"
+                        ]
+                    ],
+                    "values": [
+                        "0xc5918a927c4fb83fe99e30d6f66707f4b396900e",
+                        "0xf91546835f756da0c10cfa0cda95b15577b84aa7",
+                        1
+                    ],
+                    "values_raw": [
+                        "000000000000000000000000c5918a927c4fb83fe99e30d6f66707f4b396900e",
+                        "000000000000000000000000f91546835f756da0c10cfa0cda95b15577b84aa7",
+                        "0000000000000000000000000000000000000000000000000000000000000001"
+                    ],
+                    "sender": "0xf91546835f756da0c10cfa0cda95b15577b84aa7",
+                    "receiver": "0xc5918a927c4fb83fe99e30d6f66707f4b396900e",
+                    "hex": "0x23b872dd",
+                    "nodes": []
+                }
+            ]
+        },
+        {
+            "id": "1",
+            "type": "function",
+            "call_type": "call",
+            "action": "LCOpenTimeout",
+            "ignored": false,
+            "parameters": [
+                [
+                    "bytes32"
+                ]
+            ],
+            "values": [
+                "4e03657aea45a94fc7d47ba826c8d667c0d1e6e33a64a036ec44f58fa12d6c45"
+            ],
+            "values_raw": [
+                "4e03657aea45a94fc7d47ba826c8d667c0d1e6e33a64a036ec44f58fa12d6c45"
+            ],
+            "sender": "0xc5918a927c4fb83fe99e30d6f66707f4b396900e",
+            "receiver": "0xf91546835f756da0c10cfa0cda95b15577b84aa7",
+            "hex": "0x002e1d7e",
+            "nodes": [
+                {
+                    "id": "1_0",
+                    "type": "function",
+                    "call_type": "call",
+                    "action": "ether_transfer",
+                    "ignored": true,
+                    "parameters": [
+                        null
+                    ],
+                    "values": [],
+                    "values_raw": [],
+                    "sender": "0xf91546835f756da0c10cfa0cda95b15577b84aa7",
+                    "receiver": "0xc5918a927c4fb83fe99e30d6f66707f4b396900e",
+                    "hex": "0x",
+                    "nodes": []
+                },
+                {
+                    "id": "1_1",
+                    "type": "function",
+                    "call_type": "call",
+                    "action": "transfer",
+                    "ignored": false,
+                    "parameters": [
+                        [
+                            "address",
+                            "uint256"
+                        ]
+                    ],
+                    "values": [
+                        "0xc5918a927c4fb83fe99e30d6f66707f4b396900e",
+                        1
+                    ],
+                    "values_raw": [
+                        "000000000000000000000000c5918a927c4fb83fe99e30d6f66707f4b396900e",
+                        "0000000000000000000000000000000000000000000000000000000000000001"
+                    ],
+                    "sender": "0xf91546835f756da0c10cfa0cda95b15577b84aa7",
+                    "receiver": "0xc5918a927c4fb83fe99e30d6f66707f4b396900e",
+                    "hex": "0xa9059cbb",
+                    "nodes": [
+                        {
+                            "id": "1_1_0",
+                            "type": "function",
+                            "call_type": "call",
+                            "action": "LCOpenTimeout",
+                            "ignored": false,
+                            "parameters": [
+                                [
+                                    "bytes32"
+                                ]
+                            ],
+                            "values": [
+                                "4e03657aea45a94fc7d47ba826c8d667c0d1e6e33a64a036ec44f58fa12d6c45"
+                            ],
+                            "values_raw": [
+                                "4e03657aea45a94fc7d47ba826c8d667c0d1e6e33a64a036ec44f58fa12d6c45"
+                            ],
+                            "sender": "0xc5918a927c4fb83fe99e30d6f66707f4b396900e",
+                            "receiver": "0xf91546835f756da0c10cfa0cda95b15577b84aa7",
+                            "hex": "0x002e1d7e",
+                            "nodes": [
+                                {
+                                    "id": "1_1_0_0",
+                                    "type": "function",
+                                    "call_type": "call",
+                                    "action": "ether_transfer",
+                                    "ignored": true,
+                                    "parameters": [
+                                        null
+                                    ],
+                                    "values": [],
+                                    "values_raw": [],
+                                    "sender": "0xf91546835f756da0c10cfa0cda95b15577b84aa7",
+                                    "receiver": "0xc5918a927c4fb83fe99e30d6f66707f4b396900e",
+                                    "hex": "0x",
+                                    "nodes": []
+                                },
+                                {
+                                    "id": "1_1_0_1",
+                                    "type": "function",
+                                    "call_type": "call",
+                                    "action": "transfer",
+                                    "ignored": false,
+                                    "parameters": [
+                                        [
+                                            "address",
+                                            "uint256"
+                                        ]
+                                    ],
+                                    "values": [
+                                        "0xc5918a927c4fb83fe99e30d6f66707f4b396900e",
+                                        1
+                                    ],
+                                    "values_raw": [
+                                        "000000000000000000000000c5918a927c4fb83fe99e30d6f66707f4b396900e",
+                                        "0000000000000000000000000000000000000000000000000000000000000001"
+                                    ],
+                                    "sender": "0xf91546835f756da0c10cfa0cda95b15577b84aa7",
+                                    "receiver": "0xc5918a927c4fb83fe99e30d6f66707f4b396900e",
+                                    "hex": "0xa9059cbb",
+                                    "nodes": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "type": "function",
+            "call_type": "call",
+            "action": "ether_transfer",
+            "ignored": true,
+            "parameters": [
+                null
+            ],
+            "values": [],
+            "values_raw": [],
+            "sender": "0xc5918a927c4fb83fe99e30d6f66707f4b396900e",
+            "receiver": "0xcf267ea3f1ebae3c29fea0a3253f94f3122c2199",
+            "hex": "0x",
+            "nodes": []
+        }
+    ]
+}

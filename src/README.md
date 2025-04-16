@@ -39,7 +39,7 @@ python src/tenderly/fetch_trace.py $TENDERLY_API_KEY dataset/reentrancy/trace_re
 - `test/test_moe_poma.py` `python src/test/test_moe_poma.py -v`
 - `test/test_reentrancy.py`
 ```
-python src/test/test_poma.py --input-path  dataset/reentrancy/reentrancy/actiontree/ --ignore-static-delegate
+python src/test/test_reentrancy.py --input-path  dataset/reentrancy/reentrancy/actiontree/ --ignore-static-delegate
 ```
 - `test/test_poma.py`
 ```

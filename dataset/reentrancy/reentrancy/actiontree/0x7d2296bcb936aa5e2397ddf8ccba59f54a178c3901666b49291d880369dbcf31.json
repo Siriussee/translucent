@@ -1,0 +1,1180 @@
+{
+    "transaction_hash": "0x7d2296bcb936aa5e2397ddf8ccba59f54a178c3901666b49291d880369dbcf31",
+    "type": "function",
+    "action": "0xdfcbd40",
+    "ignored": false,
+    "parameters": [
+        "f"
+    ],
+    "values": [
+        "000000000000000000000000000000000000000000000000000005c8cd8a7000"
+    ],
+    "values_raw": [
+        "000000000000000000000000000000000000000000000000000005c8cd8a7000"
+    ],
+    "sender": "0x7c42f2a7d9ad01294ecef9be1e38272c84607593",
+    "receiver": "0x580cac65c2620d194371ef29eb887a7d8dcc91bf",
+    "hex": "0xdfcbd40f",
+    "nodes": [
+        {
+            "id": "0",
+            "type": "function",
+            "call_type": "call",
+            "action": "swap",
+            "ignored": false,
+            "parameters": [
+                [
+                    "uint256",
+                    "uint256",
+                    "address",
+                    "bytes"
+                ]
+            ],
+            "values": [
+                6360000000000,
+                0,
+                "0x580cac65c2620d194371ef29eb887a7d8dcc91bf",
+                "0000000000000000000000000000000000000000000000000000000000000080"
+            ],
+            "values_raw": [
+                "000000000000000000000000000000000000000000000000000005c8cd8a7000",
+                "0000000000000000000000000000000000000000000000000000000000000000",
+                "000000000000000000000000580cac65c2620d194371ef29eb887a7d8dcc91bf",
+                "0000000000000000000000000000000000000000000000000000000000000080",
+                "0000000000000000000000000000000000000000000000000000000000000020",
+                "0000000000000000000000000000000000000000000000000000000000000042"
+            ],
+            "sender": "0x580cac65c2620d194371ef29eb887a7d8dcc91bf",
+            "receiver": "0xb4e16d0168e52d35cacd2c6185b44281ec28c9dc",
+            "hex": "0x022c0d9f",
+            "nodes": [
+                {
+                    "id": "0_0",
+                    "type": "function",
+                    "call_type": "call",
+                    "action": "transfer",
+                    "ignored": false,
+                    "parameters": [
+                        [
+                            "address",
+                            "uint256"
+                        ]
+                    ],
+                    "values": [
+                        "0x580cac65c2620d194371ef29eb887a7d8dcc91bf",
+                        6360000000000
+                    ],
+                    "values_raw": [
+                        "000000000000000000000000580cac65c2620d194371ef29eb887a7d8dcc91bf",
+                        "000000000000000000000000000000000000000000000000000005c8cd8a7000"
+                    ],
+                    "sender": "0xb4e16d0168e52d35cacd2c6185b44281ec28c9dc",
+                    "receiver": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                    "hex": "0xa9059cbb",
+                    "nodes": [
+                        {
+                            "id": "0_0_0",
+                            "type": "function",
+                            "call_type": "delegatecall",
+                            "action": "transfer",
+                            "ignored": false,
+                            "parameters": [
+                                [
+                                    "address",
+                                    "uint256"
+                                ]
+                            ],
+                            "values": [
+                                "0x580cac65c2620d194371ef29eb887a7d8dcc91bf",
+                                6360000000000
+                            ],
+                            "values_raw": [
+                                "000000000000000000000000580cac65c2620d194371ef29eb887a7d8dcc91bf",
+                                "000000000000000000000000000000000000000000000000000005c8cd8a7000"
+                            ],
+                            "sender": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                            "receiver": "0xa2327a938febf5fec13bacfb16ae10ecbc4cbdcf",
+                            "hex": "0xa9059cbb",
+                            "nodes": []
+                        }
+                    ]
+                },
+                {
+                    "id": "0_1",
+                    "type": "function",
+                    "call_type": "call",
+                    "action": "uniswapV2Call",
+                    "ignored": false,
+                    "parameters": [
+                        [
+                            "address",
+                            "uint256",
+                            "uint256",
+                            "bytes"
+                        ]
+                    ],
+                    "values": [
+                        "0x580cac65c2620d194371ef29eb887a7d8dcc91bf",
+                        6360000000000,
+                        0,
+                        "0000000000000000000000000000000000000000000000000000000000000080"
+                    ],
+                    "values_raw": [
+                        "000000000000000000000000580cac65c2620d194371ef29eb887a7d8dcc91bf",
+                        "000000000000000000000000000000000000000000000000000005c8cd8a7000",
+                        "0000000000000000000000000000000000000000000000000000000000000000",
+                        "0000000000000000000000000000000000000000000000000000000000000080",
+                        "0000000000000000000000000000000000000000000000000000000000000020",
+                        "0000000000000000000000000000000000000000000000000000000000000042"
+                    ],
+                    "sender": "0xb4e16d0168e52d35cacd2c6185b44281ec28c9dc",
+                    "receiver": "0x580cac65c2620d194371ef29eb887a7d8dcc91bf",
+                    "hex": "0x10d1e85c",
+                    "nodes": [
+                        {
+                            "id": "0_1_0",
+                            "type": "function",
+                            "call_type": "staticcall",
+                            "action": "balanceOf",
+                            "ignored": false,
+                            "parameters": [
+                                [
+                                    "address"
+                                ]
+                            ],
+                            "values": [
+                                "0x580cac65c2620d194371ef29eb887a7d8dcc91bf"
+                            ],
+                            "values_raw": [
+                                "000000000000000000000000580cac65c2620d194371ef29eb887a7d8dcc91bf"
+                            ],
+                            "sender": "0x580cac65c2620d194371ef29eb887a7d8dcc91bf",
+                            "receiver": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                            "hex": "0x70a08231",
+                            "nodes": [
+                                {
+                                    "id": "0_1_0_0",
+                                    "type": "function",
+                                    "call_type": "delegatecall",
+                                    "action": "balanceOf",
+                                    "ignored": false,
+                                    "parameters": [
+                                        [
+                                            "address"
+                                        ]
+                                    ],
+                                    "values": [
+                                        "0x580cac65c2620d194371ef29eb887a7d8dcc91bf"
+                                    ],
+                                    "values_raw": [
+                                        "000000000000000000000000580cac65c2620d194371ef29eb887a7d8dcc91bf"
+                                    ],
+                                    "sender": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                                    "receiver": "0xa2327a938febf5fec13bacfb16ae10ecbc4cbdcf",
+                                    "hex": "0x70a08231",
+                                    "nodes": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "0_1_1",
+                            "type": "function",
+                            "call_type": "call",
+                            "action": "approve",
+                            "ignored": false,
+                            "parameters": [
+                                [
+                                    "address",
+                                    "uint256"
+                                ]
+                            ],
+                            "values": [
+                                "0xb8919522331c59f5c16bdfaa6a121a6e03a91f62",
+                                6360000000000
+                            ],
+                            "values_raw": [
+                                "000000000000000000000000b8919522331c59f5c16bdfaa6a121a6e03a91f62",
+                                "000000000000000000000000000000000000000000000000000005c8cd8a7000"
+                            ],
+                            "sender": "0x580cac65c2620d194371ef29eb887a7d8dcc91bf",
+                            "receiver": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                            "hex": "0x095ea7b3",
+                            "nodes": [
+                                {
+                                    "id": "0_1_1_0",
+                                    "type": "function",
+                                    "call_type": "delegatecall",
+                                    "action": "approve",
+                                    "ignored": false,
+                                    "parameters": [
+                                        [
+                                            "address",
+                                            "uint256"
+                                        ]
+                                    ],
+                                    "values": [
+                                        "0xb8919522331c59f5c16bdfaa6a121a6e03a91f62",
+                                        6360000000000
+                                    ],
+                                    "values_raw": [
+                                        "000000000000000000000000b8919522331c59f5c16bdfaa6a121a6e03a91f62",
+                                        "000000000000000000000000000000000000000000000000000005c8cd8a7000"
+                                    ],
+                                    "sender": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                                    "receiver": "0xa2327a938febf5fec13bacfb16ae10ecbc4cbdcf",
+                                    "hex": "0x095ea7b3",
+                                    "nodes": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "0_1_2",
+                            "type": "function",
+                            "call_type": "call",
+                            "action": "lend",
+                            "ignored": false,
+                            "parameters": [
+                                [
+                                    "uint256"
+                                ]
+                            ],
+                            "values": [
+                                2120000000000
+                            ],
+                            "values_raw": [
+                                "000000000000000000000000000000000000000000000000000001ed99d8d000"
+                            ],
+                            "sender": "0x580cac65c2620d194371ef29eb887a7d8dcc91bf",
+                            "receiver": "0xb8919522331c59f5c16bdfaa6a121a6e03a91f62",
+                            "hex": "0xa6aa57ce",
+                            "nodes": [
+                                {
+                                    "id": "0_1_2_0",
+                                    "type": "function",
+                                    "call_type": "delegatecall",
+                                    "action": "lend",
+                                    "ignored": false,
+                                    "parameters": [
+                                        [
+                                            "uint256"
+                                        ]
+                                    ],
+                                    "values": [
+                                        2120000000000
+                                    ],
+                                    "values_raw": [
+                                        "000000000000000000000000000000000000000000000000000001ed99d8d000"
+                                    ],
+                                    "sender": "0xb8919522331c59f5c16bdfaa6a121a6e03a91f62",
+                                    "receiver": "0x781ad73f140815763d9a4d4752daf9203361d07d",
+                                    "hex": "0xa6aa57ce",
+                                    "nodes": [
+                                        {
+                                            "id": "0_1_2_0_0",
+                                            "type": "function",
+                                            "call_type": "call",
+                                            "action": "transferFrom",
+                                            "ignored": false,
+                                            "parameters": [
+                                                [
+                                                    "address",
+                                                    "address",
+                                                    "uint256"
+                                                ]
+                                            ],
+                                            "values": [
+                                                "0x580cac65c2620d194371ef29eb887a7d8dcc91bf",
+                                                "0xb8919522331c59f5c16bdfaa6a121a6e03a91f62",
+                                                2120000000000
+                                            ],
+                                            "values_raw": [
+                                                "000000000000000000000000580cac65c2620d194371ef29eb887a7d8dcc91bf",
+                                                "000000000000000000000000b8919522331c59f5c16bdfaa6a121a6e03a91f62",
+                                                "000000000000000000000000000000000000000000000000000001ed99d8d000"
+                                            ],
+                                            "sender": "0xb8919522331c59f5c16bdfaa6a121a6e03a91f62",
+                                            "receiver": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                                            "hex": "0x23b872dd",
+                                            "nodes": [
+                                                {
+                                                    "id": "0_1_2_0_0_0",
+                                                    "type": "function",
+                                                    "call_type": "delegatecall",
+                                                    "action": "transferFrom",
+                                                    "ignored": false,
+                                                    "parameters": [
+                                                        [
+                                                            "address",
+                                                            "address",
+                                                            "uint256"
+                                                        ]
+                                                    ],
+                                                    "values": [
+                                                        "0x580cac65c2620d194371ef29eb887a7d8dcc91bf",
+                                                        "0xb8919522331c59f5c16bdfaa6a121a6e03a91f62",
+                                                        2120000000000
+                                                    ],
+                                                    "values_raw": [
+                                                        "000000000000000000000000580cac65c2620d194371ef29eb887a7d8dcc91bf",
+                                                        "000000000000000000000000b8919522331c59f5c16bdfaa6a121a6e03a91f62",
+                                                        "000000000000000000000000000000000000000000000000000001ed99d8d000"
+                                                    ],
+                                                    "sender": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                                                    "receiver": "0xa2327a938febf5fec13bacfb16ae10ecbc4cbdcf",
+                                                    "hex": "0x23b872dd",
+                                                    "nodes": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "0_1_2_0_1",
+                                            "type": "function",
+                                            "call_type": "staticcall",
+                                            "action": "getInterfaceImplementer",
+                                            "ignored": false,
+                                            "parameters": [
+                                                [
+                                                    "address",
+                                                    "bytes32"
+                                                ]
+                                            ],
+                                            "values": [
+                                                "0x580cac65c2620d194371ef29eb887a7d8dcc91bf",
+                                                "b281fc8c12954d22544db45de3159a39272895b169a852b314f9cc762e44c53b"
+                                            ],
+                                            "values_raw": [
+                                                "000000000000000000000000580cac65c2620d194371ef29eb887a7d8dcc91bf",
+                                                "b281fc8c12954d22544db45de3159a39272895b169a852b314f9cc762e44c53b"
+                                            ],
+                                            "sender": "0xb8919522331c59f5c16bdfaa6a121a6e03a91f62",
+                                            "receiver": "0x1820a4b7618bde71dce8cdc73aab6c95905fad24",
+                                            "hex": "0xaabbb8ca",
+                                            "nodes": []
+                                        },
+                                        {
+                                            "id": "0_1_2_0_2",
+                                            "type": "function",
+                                            "call_type": "call",
+                                            "action": "tokensReceived",
+                                            "ignored": false,
+                                            "parameters": [
+                                                [
+                                                    "address",
+                                                    "address",
+                                                    "address",
+                                                    "uint256",
+                                                    "bytes",
+                                                    "bytes"
+                                                ]
+                                            ],
+                                            "values": [
+                                                "0x580cac65c2620d194371ef29eb887a7d8dcc91bf",
+                                                "0x",
+                                                "0x580cac65c2620d194371ef29eb887a7d8dcc91bf",
+                                                2087821912720,
+                                                "00000000000000000000000000000000000000000000000000000000000000c0",
+                                                "00000000000000000000000000000000000000000000000000000000000000e0"
+                                            ],
+                                            "values_raw": [
+                                                "000000000000000000000000580cac65c2620d194371ef29eb887a7d8dcc91bf",
+                                                "0000000000000000000000000000000000000000000000000000000000000000",
+                                                "000000000000000000000000580cac65c2620d194371ef29eb887a7d8dcc91bf",
+                                                "000000000000000000000000000000000000000000000000000001e61be22a90",
+                                                "00000000000000000000000000000000000000000000000000000000000000c0",
+                                                "00000000000000000000000000000000000000000000000000000000000000e0",
+                                                "0000000000000000000000000000000000000000000000000000000000000000",
+                                                "0000000000000000000000000000000000000000000000000000000000000000"
+                                            ],
+                                            "sender": "0xb8919522331c59f5c16bdfaa6a121a6e03a91f62",
+                                            "receiver": "0x580cac65c2620d194371ef29eb887a7d8dcc91bf",
+                                            "hex": "0x0023de29",
+                                            "nodes": [
+                                                {
+                                                    "id": "0_1_2_0_2_0",
+                                                    "type": "function",
+                                                    "call_type": "call",
+                                                    "action": "lend",
+                                                    "ignored": false,
+                                                    "parameters": [
+                                                        [
+                                                            "uint256"
+                                                        ]
+                                                    ],
+                                                    "values": [
+                                                        2120000000000
+                                                    ],
+                                                    "values_raw": [
+                                                        "000000000000000000000000000000000000000000000000000001ed99d8d000"
+                                                    ],
+                                                    "sender": "0x580cac65c2620d194371ef29eb887a7d8dcc91bf",
+                                                    "receiver": "0xb8919522331c59f5c16bdfaa6a121a6e03a91f62",
+                                                    "hex": "0xa6aa57ce",
+                                                    "nodes": [
+                                                        {
+                                                            "id": "0_1_2_0_2_0_0",
+                                                            "type": "function",
+                                                            "call_type": "delegatecall",
+                                                            "action": "lend",
+                                                            "ignored": false,
+                                                            "parameters": [
+                                                                [
+                                                                    "uint256"
+                                                                ]
+                                                            ],
+                                                            "values": [
+                                                                2120000000000
+                                                            ],
+                                                            "values_raw": [
+                                                                "000000000000000000000000000000000000000000000000000001ed99d8d000"
+                                                            ],
+                                                            "sender": "0xb8919522331c59f5c16bdfaa6a121a6e03a91f62",
+                                                            "receiver": "0x781ad73f140815763d9a4d4752daf9203361d07d",
+                                                            "hex": "0xa6aa57ce",
+                                                            "nodes": [
+                                                                {
+                                                                    "id": "0_1_2_0_2_0_0_0",
+                                                                    "type": "function",
+                                                                    "call_type": "call",
+                                                                    "action": "transferFrom",
+                                                                    "ignored": false,
+                                                                    "parameters": [
+                                                                        [
+                                                                            "address",
+                                                                            "address",
+                                                                            "uint256"
+                                                                        ]
+                                                                    ],
+                                                                    "values": [
+                                                                        "0x580cac65c2620d194371ef29eb887a7d8dcc91bf",
+                                                                        "0xb8919522331c59f5c16bdfaa6a121a6e03a91f62",
+                                                                        2120000000000
+                                                                    ],
+                                                                    "values_raw": [
+                                                                        "000000000000000000000000580cac65c2620d194371ef29eb887a7d8dcc91bf",
+                                                                        "000000000000000000000000b8919522331c59f5c16bdfaa6a121a6e03a91f62",
+                                                                        "000000000000000000000000000000000000000000000000000001ed99d8d000"
+                                                                    ],
+                                                                    "sender": "0xb8919522331c59f5c16bdfaa6a121a6e03a91f62",
+                                                                    "receiver": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                                                                    "hex": "0x23b872dd",
+                                                                    "nodes": [
+                                                                        {
+                                                                            "id": "0_1_2_0_2_0_0_0_0",
+                                                                            "type": "function",
+                                                                            "call_type": "delegatecall",
+                                                                            "action": "transferFrom",
+                                                                            "ignored": false,
+                                                                            "parameters": [
+                                                                                [
+                                                                                    "address",
+                                                                                    "address",
+                                                                                    "uint256"
+                                                                                ]
+                                                                            ],
+                                                                            "values": [
+                                                                                "0x580cac65c2620d194371ef29eb887a7d8dcc91bf",
+                                                                                "0xb8919522331c59f5c16bdfaa6a121a6e03a91f62",
+                                                                                2120000000000
+                                                                            ],
+                                                                            "values_raw": [
+                                                                                "000000000000000000000000580cac65c2620d194371ef29eb887a7d8dcc91bf",
+                                                                                "000000000000000000000000b8919522331c59f5c16bdfaa6a121a6e03a91f62",
+                                                                                "000000000000000000000000000000000000000000000000000001ed99d8d000"
+                                                                            ],
+                                                                            "sender": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                                                                            "receiver": "0xa2327a938febf5fec13bacfb16ae10ecbc4cbdcf",
+                                                                            "hex": "0x23b872dd",
+                                                                            "nodes": []
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "id": "0_1_2_0_2_0_0_1",
+                                                                    "type": "function",
+                                                                    "call_type": "staticcall",
+                                                                    "action": "getInterfaceImplementer",
+                                                                    "ignored": false,
+                                                                    "parameters": [
+                                                                        [
+                                                                            "address",
+                                                                            "bytes32"
+                                                                        ]
+                                                                    ],
+                                                                    "values": [
+                                                                        "0x580cac65c2620d194371ef29eb887a7d8dcc91bf",
+                                                                        "b281fc8c12954d22544db45de3159a39272895b169a852b314f9cc762e44c53b"
+                                                                    ],
+                                                                    "values_raw": [
+                                                                        "000000000000000000000000580cac65c2620d194371ef29eb887a7d8dcc91bf",
+                                                                        "b281fc8c12954d22544db45de3159a39272895b169a852b314f9cc762e44c53b"
+                                                                    ],
+                                                                    "sender": "0xb8919522331c59f5c16bdfaa6a121a6e03a91f62",
+                                                                    "receiver": "0x1820a4b7618bde71dce8cdc73aab6c95905fad24",
+                                                                    "hex": "0xaabbb8ca",
+                                                                    "nodes": []
+                                                                },
+                                                                {
+                                                                    "id": "0_1_2_0_2_0_0_2",
+                                                                    "type": "function",
+                                                                    "call_type": "call",
+                                                                    "action": "tokensReceived",
+                                                                    "ignored": false,
+                                                                    "parameters": [
+                                                                        [
+                                                                            "address",
+                                                                            "address",
+                                                                            "address",
+                                                                            "uint256",
+                                                                            "bytes",
+                                                                            "bytes"
+                                                                        ]
+                                                                    ],
+                                                                    "values": [
+                                                                        "0x580cac65c2620d194371ef29eb887a7d8dcc91bf",
+                                                                        "0x",
+                                                                        "0x580cac65c2620d194371ef29eb887a7d8dcc91bf",
+                                                                        2751630036547,
+                                                                        "00000000000000000000000000000000000000000000000000000000000000c0",
+                                                                        "00000000000000000000000000000000000000000000000000000000000000e0"
+                                                                    ],
+                                                                    "values_raw": [
+                                                                        "000000000000000000000000580cac65c2620d194371ef29eb887a7d8dcc91bf",
+                                                                        "0000000000000000000000000000000000000000000000000000000000000000",
+                                                                        "000000000000000000000000580cac65c2620d194371ef29eb887a7d8dcc91bf",
+                                                                        "00000000000000000000000000000000000000000000000000000280a9ee4e43",
+                                                                        "00000000000000000000000000000000000000000000000000000000000000c0",
+                                                                        "00000000000000000000000000000000000000000000000000000000000000e0",
+                                                                        "0000000000000000000000000000000000000000000000000000000000000000",
+                                                                        "0000000000000000000000000000000000000000000000000000000000000000"
+                                                                    ],
+                                                                    "sender": "0xb8919522331c59f5c16bdfaa6a121a6e03a91f62",
+                                                                    "receiver": "0x580cac65c2620d194371ef29eb887a7d8dcc91bf",
+                                                                    "hex": "0x0023de29",
+                                                                    "nodes": [
+                                                                        {
+                                                                            "id": "0_1_2_0_2_0_0_2_0",
+                                                                            "type": "function",
+                                                                            "call_type": "call",
+                                                                            "action": "lend",
+                                                                            "ignored": false,
+                                                                            "parameters": [
+                                                                                [
+                                                                                    "uint256"
+                                                                                ]
+                                                                            ],
+                                                                            "values": [
+                                                                                2120000000000
+                                                                            ],
+                                                                            "values_raw": [
+                                                                                "000000000000000000000000000000000000000000000000000001ed99d8d000"
+                                                                            ],
+                                                                            "sender": "0x580cac65c2620d194371ef29eb887a7d8dcc91bf",
+                                                                            "receiver": "0xb8919522331c59f5c16bdfaa6a121a6e03a91f62",
+                                                                            "hex": "0xa6aa57ce",
+                                                                            "nodes": [
+                                                                                {
+                                                                                    "id": "0_1_2_0_2_0_0_2_0_0",
+                                                                                    "type": "function",
+                                                                                    "call_type": "delegatecall",
+                                                                                    "action": "lend",
+                                                                                    "ignored": false,
+                                                                                    "parameters": [
+                                                                                        [
+                                                                                            "uint256"
+                                                                                        ]
+                                                                                    ],
+                                                                                    "values": [
+                                                                                        2120000000000
+                                                                                    ],
+                                                                                    "values_raw": [
+                                                                                        "000000000000000000000000000000000000000000000000000001ed99d8d000"
+                                                                                    ],
+                                                                                    "sender": "0xb8919522331c59f5c16bdfaa6a121a6e03a91f62",
+                                                                                    "receiver": "0x781ad73f140815763d9a4d4752daf9203361d07d",
+                                                                                    "hex": "0xa6aa57ce",
+                                                                                    "nodes": [
+                                                                                        {
+                                                                                            "id": "0_1_2_0_2_0_0_2_0_0_0",
+                                                                                            "type": "function",
+                                                                                            "call_type": "call",
+                                                                                            "action": "transferFrom",
+                                                                                            "ignored": false,
+                                                                                            "parameters": [
+                                                                                                [
+                                                                                                    "address",
+                                                                                                    "address",
+                                                                                                    "uint256"
+                                                                                                ]
+                                                                                            ],
+                                                                                            "values": [
+                                                                                                "0x580cac65c2620d194371ef29eb887a7d8dcc91bf",
+                                                                                                "0xb8919522331c59f5c16bdfaa6a121a6e03a91f62",
+                                                                                                2120000000000
+                                                                                            ],
+                                                                                            "values_raw": [
+                                                                                                "000000000000000000000000580cac65c2620d194371ef29eb887a7d8dcc91bf",
+                                                                                                "000000000000000000000000b8919522331c59f5c16bdfaa6a121a6e03a91f62",
+                                                                                                "000000000000000000000000000000000000000000000000000001ed99d8d000"
+                                                                                            ],
+                                                                                            "sender": "0xb8919522331c59f5c16bdfaa6a121a6e03a91f62",
+                                                                                            "receiver": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                                                                                            "hex": "0x23b872dd",
+                                                                                            "nodes": [
+                                                                                                {
+                                                                                                    "id": "0_1_2_0_2_0_0_2_0_0_0_0",
+                                                                                                    "type": "function",
+                                                                                                    "call_type": "delegatecall",
+                                                                                                    "action": "transferFrom",
+                                                                                                    "ignored": false,
+                                                                                                    "parameters": [
+                                                                                                        [
+                                                                                                            "address",
+                                                                                                            "address",
+                                                                                                            "uint256"
+                                                                                                        ]
+                                                                                                    ],
+                                                                                                    "values": [
+                                                                                                        "0x580cac65c2620d194371ef29eb887a7d8dcc91bf",
+                                                                                                        "0xb8919522331c59f5c16bdfaa6a121a6e03a91f62",
+                                                                                                        2120000000000
+                                                                                                    ],
+                                                                                                    "values_raw": [
+                                                                                                        "000000000000000000000000580cac65c2620d194371ef29eb887a7d8dcc91bf",
+                                                                                                        "000000000000000000000000b8919522331c59f5c16bdfaa6a121a6e03a91f62",
+                                                                                                        "000000000000000000000000000000000000000000000000000001ed99d8d000"
+                                                                                                    ],
+                                                                                                    "sender": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                                                                                                    "receiver": "0xa2327a938febf5fec13bacfb16ae10ecbc4cbdcf",
+                                                                                                    "hex": "0x23b872dd",
+                                                                                                    "nodes": []
+                                                                                                }
+                                                                                            ]
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "0_1_2_0_2_0_0_2_0_0_1",
+                                                                                            "type": "function",
+                                                                                            "call_type": "staticcall",
+                                                                                            "action": "getInterfaceImplementer",
+                                                                                            "ignored": false,
+                                                                                            "parameters": [
+                                                                                                [
+                                                                                                    "address",
+                                                                                                    "bytes32"
+                                                                                                ]
+                                                                                            ],
+                                                                                            "values": [
+                                                                                                "0x580cac65c2620d194371ef29eb887a7d8dcc91bf",
+                                                                                                "b281fc8c12954d22544db45de3159a39272895b169a852b314f9cc762e44c53b"
+                                                                                            ],
+                                                                                            "values_raw": [
+                                                                                                "000000000000000000000000580cac65c2620d194371ef29eb887a7d8dcc91bf",
+                                                                                                "b281fc8c12954d22544db45de3159a39272895b169a852b314f9cc762e44c53b"
+                                                                                            ],
+                                                                                            "sender": "0xb8919522331c59f5c16bdfaa6a121a6e03a91f62",
+                                                                                            "receiver": "0x1820a4b7618bde71dce8cdc73aab6c95905fad24",
+                                                                                            "hex": "0xaabbb8ca",
+                                                                                            "nodes": []
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "0_1_2_0_2_0_0_2_0_0_2",
+                                                                                            "type": "function",
+                                                                                            "call_type": "call",
+                                                                                            "action": "tokensReceived",
+                                                                                            "ignored": false,
+                                                                                            "parameters": [
+                                                                                                [
+                                                                                                    "address",
+                                                                                                    "address",
+                                                                                                    "address",
+                                                                                                    "uint256",
+                                                                                                    "bytes",
+                                                                                                    "bytes"
+                                                                                                ]
+                                                                                            ],
+                                                                                            "values": [
+                                                                                                "0x580cac65c2620d194371ef29eb887a7d8dcc91bf",
+                                                                                                "0x",
+                                                                                                "0x580cac65c2620d194371ef29eb887a7d8dcc91bf",
+                                                                                                3626491230837,
+                                                                                                "00000000000000000000000000000000000000000000000000000000000000c0",
+                                                                                                "00000000000000000000000000000000000000000000000000000000000000e0"
+                                                                                            ],
+                                                                                            "values_raw": [
+                                                                                                "000000000000000000000000580cac65c2620d194371ef29eb887a7d8dcc91bf",
+                                                                                                "0000000000000000000000000000000000000000000000000000000000000000",
+                                                                                                "000000000000000000000000580cac65c2620d194371ef29eb887a7d8dcc91bf",
+                                                                                                "0000000000000000000000000000000000000000000000000000034c5bb8ba75",
+                                                                                                "00000000000000000000000000000000000000000000000000000000000000c0",
+                                                                                                "00000000000000000000000000000000000000000000000000000000000000e0",
+                                                                                                "0000000000000000000000000000000000000000000000000000000000000000",
+                                                                                                "0000000000000000000000000000000000000000000000000000000000000000"
+                                                                                            ],
+                                                                                            "sender": "0xb8919522331c59f5c16bdfaa6a121a6e03a91f62",
+                                                                                            "receiver": "0x580cac65c2620d194371ef29eb887a7d8dcc91bf",
+                                                                                            "hex": "0x0023de29",
+                                                                                            "nodes": []
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "0_1_3",
+                            "type": "function",
+                            "call_type": "staticcall",
+                            "action": "balanceOf",
+                            "ignored": false,
+                            "parameters": [
+                                [
+                                    "address"
+                                ]
+                            ],
+                            "values": [
+                                "0x580cac65c2620d194371ef29eb887a7d8dcc91bf"
+                            ],
+                            "values_raw": [
+                                "000000000000000000000000580cac65c2620d194371ef29eb887a7d8dcc91bf"
+                            ],
+                            "sender": "0x580cac65c2620d194371ef29eb887a7d8dcc91bf",
+                            "receiver": "0xb8919522331c59f5c16bdfaa6a121a6e03a91f62",
+                            "hex": "0x70a08231",
+                            "nodes": [
+                                {
+                                    "id": "0_1_3_0",
+                                    "type": "function",
+                                    "call_type": "delegatecall",
+                                    "action": "balanceOf",
+                                    "ignored": false,
+                                    "parameters": [
+                                        [
+                                            "address"
+                                        ]
+                                    ],
+                                    "values": [
+                                        "0x580cac65c2620d194371ef29eb887a7d8dcc91bf"
+                                    ],
+                                    "values_raw": [
+                                        "000000000000000000000000580cac65c2620d194371ef29eb887a7d8dcc91bf"
+                                    ],
+                                    "sender": "0xb8919522331c59f5c16bdfaa6a121a6e03a91f62",
+                                    "receiver": "0x781ad73f140815763d9a4d4752daf9203361d07d",
+                                    "hex": "0x70a08231",
+                                    "nodes": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "0_1_4",
+                            "type": "function",
+                            "call_type": "call",
+                            "action": "redeem",
+                            "ignored": false,
+                            "parameters": [
+                                [
+                                    "uint256"
+                                ]
+                            ],
+                            "values": [
+                                8465943180104
+                            ],
+                            "values_raw": [
+                                "000000000000000000000000000000000000000000000000000007b321893348"
+                            ],
+                            "sender": "0x580cac65c2620d194371ef29eb887a7d8dcc91bf",
+                            "receiver": "0xb8919522331c59f5c16bdfaa6a121a6e03a91f62",
+                            "hex": "0xdb006a75",
+                            "nodes": [
+                                {
+                                    "id": "0_1_4_0",
+                                    "type": "function",
+                                    "call_type": "delegatecall",
+                                    "action": "redeem",
+                                    "ignored": false,
+                                    "parameters": [
+                                        [
+                                            "uint256"
+                                        ]
+                                    ],
+                                    "values": [
+                                        8465943180104
+                                    ],
+                                    "values_raw": [
+                                        "000000000000000000000000000000000000000000000000000007b321893348"
+                                    ],
+                                    "sender": "0xb8919522331c59f5c16bdfaa6a121a6e03a91f62",
+                                    "receiver": "0x781ad73f140815763d9a4d4752daf9203361d07d",
+                                    "hex": "0xdb006a75",
+                                    "nodes": [
+                                        {
+                                            "id": "0_1_4_0_0",
+                                            "type": "function",
+                                            "call_type": "staticcall",
+                                            "action": "getInterfaceImplementer",
+                                            "ignored": false,
+                                            "parameters": [
+                                                [
+                                                    "address",
+                                                    "bytes32"
+                                                ]
+                                            ],
+                                            "values": [
+                                                "0x580cac65c2620d194371ef29eb887a7d8dcc91bf",
+                                                "29ddb589b1fb5fc7cf394961c1adf5f8c6454761adf795e67fe149f658abe895"
+                                            ],
+                                            "values_raw": [
+                                                "000000000000000000000000580cac65c2620d194371ef29eb887a7d8dcc91bf",
+                                                "29ddb589b1fb5fc7cf394961c1adf5f8c6454761adf795e67fe149f658abe895"
+                                            ],
+                                            "sender": "0xb8919522331c59f5c16bdfaa6a121a6e03a91f62",
+                                            "receiver": "0x1820a4b7618bde71dce8cdc73aab6c95905fad24",
+                                            "hex": "0xaabbb8ca",
+                                            "nodes": []
+                                        },
+                                        {
+                                            "id": "0_1_4_0_1",
+                                            "type": "function",
+                                            "call_type": "call",
+                                            "action": "transfer",
+                                            "ignored": false,
+                                            "parameters": [
+                                                [
+                                                    "address",
+                                                    "uint256"
+                                                ]
+                                            ],
+                                            "values": [
+                                                "0x580cac65c2620d194371ef29eb887a7d8dcc91bf",
+                                                7336924997605
+                                            ],
+                                            "values_raw": [
+                                                "000000000000000000000000580cac65c2620d194371ef29eb887a7d8dcc91bf",
+                                                "000000000000000000000000000000000000000000000000000006ac42cee7e5"
+                                            ],
+                                            "sender": "0xb8919522331c59f5c16bdfaa6a121a6e03a91f62",
+                                            "receiver": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                                            "hex": "0xa9059cbb",
+                                            "nodes": [
+                                                {
+                                                    "id": "0_1_4_0_1_0",
+                                                    "type": "function",
+                                                    "call_type": "delegatecall",
+                                                    "action": "transfer",
+                                                    "ignored": false,
+                                                    "parameters": [
+                                                        [
+                                                            "address",
+                                                            "uint256"
+                                                        ]
+                                                    ],
+                                                    "values": [
+                                                        "0x580cac65c2620d194371ef29eb887a7d8dcc91bf",
+                                                        7336924997605
+                                                    ],
+                                                    "values_raw": [
+                                                        "000000000000000000000000580cac65c2620d194371ef29eb887a7d8dcc91bf",
+                                                        "000000000000000000000000000000000000000000000000000006ac42cee7e5"
+                                                    ],
+                                                    "sender": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                                                    "receiver": "0xa2327a938febf5fec13bacfb16ae10ecbc4cbdcf",
+                                                    "hex": "0xa9059cbb",
+                                                    "nodes": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "0_1_5",
+                            "type": "function",
+                            "call_type": "staticcall",
+                            "action": "balanceOf",
+                            "ignored": false,
+                            "parameters": [
+                                [
+                                    "address"
+                                ]
+                            ],
+                            "values": [
+                                "0x580cac65c2620d194371ef29eb887a7d8dcc91bf"
+                            ],
+                            "values_raw": [
+                                "000000000000000000000000580cac65c2620d194371ef29eb887a7d8dcc91bf"
+                            ],
+                            "sender": "0x580cac65c2620d194371ef29eb887a7d8dcc91bf",
+                            "receiver": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                            "hex": "0x70a08231",
+                            "nodes": [
+                                {
+                                    "id": "0_1_5_0",
+                                    "type": "function",
+                                    "call_type": "delegatecall",
+                                    "action": "balanceOf",
+                                    "ignored": false,
+                                    "parameters": [
+                                        [
+                                            "address"
+                                        ]
+                                    ],
+                                    "values": [
+                                        "0x580cac65c2620d194371ef29eb887a7d8dcc91bf"
+                                    ],
+                                    "values_raw": [
+                                        "000000000000000000000000580cac65c2620d194371ef29eb887a7d8dcc91bf"
+                                    ],
+                                    "sender": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                                    "receiver": "0xa2327a938febf5fec13bacfb16ae10ecbc4cbdcf",
+                                    "hex": "0x70a08231",
+                                    "nodes": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "0_1_6",
+                            "type": "function",
+                            "call_type": "call",
+                            "action": "transfer",
+                            "ignored": false,
+                            "parameters": [
+                                [
+                                    "address",
+                                    "uint256"
+                                ]
+                            ],
+                            "values": [
+                                "0xb4e16d0168e52d35cacd2c6185b44281ec28c9dc",
+                                6379716000000
+                            ],
+                            "values_raw": [
+                                "000000000000000000000000b4e16d0168e52d35cacd2c6185b44281ec28c9dc",
+                                "000000000000000000000000000000000000000000000000000005cd64b4b900"
+                            ],
+                            "sender": "0x580cac65c2620d194371ef29eb887a7d8dcc91bf",
+                            "receiver": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                            "hex": "0xa9059cbb",
+                            "nodes": [
+                                {
+                                    "id": "0_1_6_0",
+                                    "type": "function",
+                                    "call_type": "delegatecall",
+                                    "action": "transfer",
+                                    "ignored": false,
+                                    "parameters": [
+                                        [
+                                            "address",
+                                            "uint256"
+                                        ]
+                                    ],
+                                    "values": [
+                                        "0xb4e16d0168e52d35cacd2c6185b44281ec28c9dc",
+                                        6379716000000
+                                    ],
+                                    "values_raw": [
+                                        "000000000000000000000000b4e16d0168e52d35cacd2c6185b44281ec28c9dc",
+                                        "000000000000000000000000000000000000000000000000000005cd64b4b900"
+                                    ],
+                                    "sender": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                                    "receiver": "0xa2327a938febf5fec13bacfb16ae10ecbc4cbdcf",
+                                    "hex": "0xa9059cbb",
+                                    "nodes": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "0_1_7",
+                            "type": "function",
+                            "call_type": "staticcall",
+                            "action": "balanceOf",
+                            "ignored": false,
+                            "parameters": [
+                                [
+                                    "address"
+                                ]
+                            ],
+                            "values": [
+                                "0x580cac65c2620d194371ef29eb887a7d8dcc91bf"
+                            ],
+                            "values_raw": [
+                                "000000000000000000000000580cac65c2620d194371ef29eb887a7d8dcc91bf"
+                            ],
+                            "sender": "0x580cac65c2620d194371ef29eb887a7d8dcc91bf",
+                            "receiver": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                            "hex": "0x70a08231",
+                            "nodes": [
+                                {
+                                    "id": "0_1_7_0",
+                                    "type": "function",
+                                    "call_type": "delegatecall",
+                                    "action": "balanceOf",
+                                    "ignored": false,
+                                    "parameters": [
+                                        [
+                                            "address"
+                                        ]
+                                    ],
+                                    "values": [
+                                        "0x580cac65c2620d194371ef29eb887a7d8dcc91bf"
+                                    ],
+                                    "values_raw": [
+                                        "000000000000000000000000580cac65c2620d194371ef29eb887a7d8dcc91bf"
+                                    ],
+                                    "sender": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                                    "receiver": "0xa2327a938febf5fec13bacfb16ae10ecbc4cbdcf",
+                                    "hex": "0x70a08231",
+                                    "nodes": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "0_1_8",
+                            "type": "function",
+                            "call_type": "call",
+                            "action": "transfer",
+                            "ignored": false,
+                            "parameters": [
+                                [
+                                    "address",
+                                    "uint256"
+                                ]
+                            ],
+                            "values": [
+                                "0x7c42f2a7d9ad01294ecef9be1e38272c84607593",
+                                957208997605
+                            ],
+                            "values_raw": [
+                                "0000000000000000000000007c42f2a7d9ad01294ecef9be1e38272c84607593",
+                                "000000000000000000000000000000000000000000000000000000dede1a2ee5"
+                            ],
+                            "sender": "0x580cac65c2620d194371ef29eb887a7d8dcc91bf",
+                            "receiver": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                            "hex": "0xa9059cbb",
+                            "nodes": [
+                                {
+                                    "id": "0_1_8_0",
+                                    "type": "function",
+                                    "call_type": "delegatecall",
+                                    "action": "transfer",
+                                    "ignored": false,
+                                    "parameters": [
+                                        [
+                                            "address",
+                                            "uint256"
+                                        ]
+                                    ],
+                                    "values": [
+                                        "0x7c42f2a7d9ad01294ecef9be1e38272c84607593",
+                                        957208997605
+                                    ],
+                                    "values_raw": [
+                                        "0000000000000000000000007c42f2a7d9ad01294ecef9be1e38272c84607593",
+                                        "000000000000000000000000000000000000000000000000000000dede1a2ee5"
+                                    ],
+                                    "sender": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                                    "receiver": "0xa2327a938febf5fec13bacfb16ae10ecbc4cbdcf",
+                                    "hex": "0xa9059cbb",
+                                    "nodes": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "0_1_9",
+                            "type": "function",
+                            "call_type": "suicide",
+                            "action": "suicide_contract",
+                            "ignored": true,
+                            "parameters": [
+                                null
+                            ],
+                            "values": [],
+                            "values_raw": [],
+                            "sender": "0x580cac65c2620d194371ef29eb887a7d8dcc91bf",
+                            "receiver": "0x7c42f2a7d9ad01294ecef9be1e38272c84607593",
+                            "hex": null,
+                            "nodes": []
+                        }
+                    ]
+                },
+                {
+                    "id": "0_2",
+                    "type": "function",
+                    "call_type": "staticcall",
+                    "action": "balanceOf",
+                    "ignored": false,
+                    "parameters": [
+                        [
+                            "address"
+                        ]
+                    ],
+                    "values": [
+                        "0xb4e16d0168e52d35cacd2c6185b44281ec28c9dc"
+                    ],
+                    "values_raw": [
+                        "000000000000000000000000b4e16d0168e52d35cacd2c6185b44281ec28c9dc"
+                    ],
+                    "sender": "0xb4e16d0168e52d35cacd2c6185b44281ec28c9dc",
+                    "receiver": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                    "hex": "0x70a08231",
+                    "nodes": [
+                        {
+                            "id": "0_2_0",
+                            "type": "function",
+                            "call_type": "delegatecall",
+                            "action": "balanceOf",
+                            "ignored": false,
+                            "parameters": [
+                                [
+                                    "address"
+                                ]
+                            ],
+                            "values": [
+                                "0xb4e16d0168e52d35cacd2c6185b44281ec28c9dc"
+                            ],
+                            "values_raw": [
+                                "000000000000000000000000b4e16d0168e52d35cacd2c6185b44281ec28c9dc"
+                            ],
+                            "sender": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                            "receiver": "0xa2327a938febf5fec13bacfb16ae10ecbc4cbdcf",
+                            "hex": "0x70a08231",
+                            "nodes": []
+                        }
+                    ]
+                },
+                {
+                    "id": "0_3",
+                    "type": "function",
+                    "call_type": "staticcall",
+                    "action": "balanceOf",
+                    "ignored": false,
+                    "parameters": [
+                        [
+                            "address"
+                        ]
+                    ],
+                    "values": [
+                        "0xb4e16d0168e52d35cacd2c6185b44281ec28c9dc"
+                    ],
+                    "values_raw": [
+                        "000000000000000000000000b4e16d0168e52d35cacd2c6185b44281ec28c9dc"
+                    ],
+                    "sender": "0xb4e16d0168e52d35cacd2c6185b44281ec28c9dc",
+                    "receiver": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "hex": "0x70a08231",
+                    "nodes": []
+                }
+            ]
+        }
+    ]
+}

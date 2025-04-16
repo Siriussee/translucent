@@ -1,0 +1,3653 @@
+{
+    "transaction_hash": "0x98d8237027797a51b1251aa239d1a85b7a209d15c9f7895b44b4ee7ee0c754fb",
+    "type": "function",
+    "action": "start",
+    "ignored": false,
+    "parameters": [
+        null
+    ],
+    "values": [],
+    "values_raw": [],
+    "sender": "0x2ba9de5ebca7db023dd1f9abce9100e7590d0000",
+    "receiver": "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+    "hex": "0xbe9a6555",
+    "nodes": [
+        {
+            "id": "0",
+            "type": "function",
+            "call_type": "call",
+            "action": "approve",
+            "ignored": false,
+            "parameters": [
+                [
+                    "address",
+                    "uint256"
+                ]
+            ],
+            "values": [
+                "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                115792089237316195423570985008687907853269984665640564039457584007913129639935
+            ],
+            "values_raw": [
+                "000000000000000000000000dbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ],
+            "sender": "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+            "receiver": "0x6b175474e89094c44da98b954eedeac495271d0f",
+            "hex": "0x095ea7b3",
+            "nodes": []
+        },
+        {
+            "id": "1",
+            "type": "function",
+            "call_type": "staticcall",
+            "action": "balanceOf",
+            "ignored": false,
+            "parameters": [
+                [
+                    "address"
+                ]
+            ],
+            "values": [
+                "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31"
+            ],
+            "values_raw": [
+                "000000000000000000000000dbb20a979a92cccce15229e41c9b082d5b5d7e31"
+            ],
+            "sender": "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+            "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+            "hex": "0x70a08231",
+            "nodes": []
+        },
+        {
+            "id": "2",
+            "type": "function",
+            "call_type": "call",
+            "action": "flash",
+            "ignored": false,
+            "parameters": [
+                [
+                    "address",
+                    "address",
+                    "uint256",
+                    "bytes"
+                ]
+            ],
+            "values": [
+                "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                "0x2f92800f57bcd74066f5709f1daa1a4302df875",
+                260126428577663414478946,
+                "0000000000000000000000000000000000000000000000000000000000000080"
+            ],
+            "values_raw": [
+                "000000000000000000000000928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                "00000000000000000000000002f92800f57bcd74066f5709f1daa1a4302df875",
+                "0000000000000000000000000000000000000000000037157b61067fb834a862",
+                "0000000000000000000000000000000000000000000000000000000000000080",
+                "0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "sender": "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+            "receiver": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+            "hex": "0xbdbc91ab",
+            "nodes": [
+                {
+                    "id": "2_0",
+                    "type": "function",
+                    "call_type": "staticcall",
+                    "action": "poolRewards",
+                    "ignored": false,
+                    "parameters": [
+                        null
+                    ],
+                    "values": [],
+                    "values_raw": [],
+                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                    "receiver": "0x50fbbb6aa935396075f8200b9d1476bba7b2a4c6",
+                    "hex": "0x8bc6beb2",
+                    "nodes": []
+                },
+                {
+                    "id": "2_1",
+                    "type": "function",
+                    "call_type": "staticcall",
+                    "action": "decimals",
+                    "ignored": false,
+                    "parameters": [
+                        null
+                    ],
+                    "values": [],
+                    "values_raw": [],
+                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                    "receiver": "0x6b175474e89094c44da98b954eedeac495271d0f",
+                    "hex": "0x313ce567",
+                    "nodes": []
+                },
+                {
+                    "id": "2_2",
+                    "type": "function",
+                    "call_type": "call",
+                    "action": "transferFrom",
+                    "ignored": false,
+                    "parameters": [
+                        [
+                            "address",
+                            "address",
+                            "uint256"
+                        ]
+                    ],
+                    "values": [
+                        "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                        "0x37b87ba4c3edb420ed4552f1982c983b55d8b9d1",
+                        10000000000000000000
+                    ],
+                    "values_raw": [
+                        "000000000000000000000000928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                        "00000000000000000000000037b87ba4c3edb420ed4552f1982c983b55d8b9d1",
+                        "0000000000000000000000000000000000000000000000008ac7230489e80000"
+                    ],
+                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                    "receiver": "0x6b175474e89094c44da98b954eedeac495271d0f",
+                    "hex": "0x23b872dd",
+                    "nodes": []
+                },
+                {
+                    "id": "2_3",
+                    "type": "function",
+                    "call_type": "staticcall",
+                    "action": "balanceOf",
+                    "ignored": false,
+                    "parameters": [
+                        [
+                            "address"
+                        ]
+                    ],
+                    "values": [
+                        "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                    ],
+                    "values_raw": [
+                        "000000000000000000000000dbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                    ],
+                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                    "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+                    "hex": "0x70a08231",
+                    "nodes": []
+                },
+                {
+                    "id": "2_4",
+                    "type": "function",
+                    "call_type": "call",
+                    "action": "transfer",
+                    "ignored": false,
+                    "parameters": [
+                        [
+                            "address",
+                            "uint256"
+                        ]
+                    ],
+                    "values": [
+                        "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                        260126428577663414478946
+                    ],
+                    "values_raw": [
+                        "000000000000000000000000928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                        "0000000000000000000000000000000000000000000037157b61067fb834a862"
+                    ],
+                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                    "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+                    "hex": "0xa9059cbb",
+                    "nodes": []
+                },
+                {
+                    "id": "2_5",
+                    "type": "function",
+                    "call_type": "call",
+                    "action": "callback",
+                    "ignored": false,
+                    "parameters": [
+                        [
+                            "bytes"
+                        ]
+                    ],
+                    "values": [
+                        "0000000000000000000000000000000000000000000000000000000000000020"
+                    ],
+                    "values_raw": [
+                        "0000000000000000000000000000000000000000000000000000000000000020",
+                        "0000000000000000000000000000000000000000000000000000000000000000"
+                    ],
+                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                    "receiver": "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                    "hex": "0xe98a5654",
+                    "nodes": [
+                        {
+                            "id": "2_5_0",
+                            "type": "function",
+                            "call_type": "call",
+                            "action": "approve",
+                            "ignored": false,
+                            "parameters": [
+                                [
+                                    "address",
+                                    "uint256"
+                                ]
+                            ],
+                            "values": [
+                                "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                                115792089237316195423570985008687907853269984665640564039457584007913129639935
+                            ],
+                            "values_raw": [
+                                "000000000000000000000000dbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+                            ],
+                            "sender": "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                            "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+                            "hex": "0x095ea7b3",
+                            "nodes": []
+                        },
+                        {
+                            "id": "2_5_1",
+                            "type": "function",
+                            "call_type": "staticcall",
+                            "action": "balanceOf",
+                            "ignored": false,
+                            "parameters": [
+                                [
+                                    "address"
+                                ]
+                            ],
+                            "values": [
+                                "0x928b2dae97fc5d40cb0552815fb5ab071103e20a"
+                            ],
+                            "values_raw": [
+                                "000000000000000000000000928b2dae97fc5d40cb0552815fb5ab071103e20a"
+                            ],
+                            "sender": "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                            "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+                            "hex": "0x70a08231",
+                            "nodes": []
+                        },
+                        {
+                            "id": "2_5_2",
+                            "type": "function",
+                            "call_type": "call",
+                            "action": "bond",
+                            "ignored": false,
+                            "parameters": [
+                                [
+                                    "address",
+                                    "uint256"
+                                ]
+                            ],
+                            "values": [
+                                "0x2f92800f57bcd74066f5709f1daa1a4302df875",
+                                260126428577663414478946
+                            ],
+                            "values_raw": [
+                                "00000000000000000000000002f92800f57bcd74066f5709f1daa1a4302df875",
+                                "0000000000000000000000000000000000000000000037157b61067fb834a862"
+                            ],
+                            "sender": "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                            "receiver": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                            "hex": "0xa515366a",
+                            "nodes": [
+                                {
+                                    "id": "2_5_2_0",
+                                    "type": "function",
+                                    "call_type": "staticcall",
+                                    "action": "balanceOf",
+                                    "ignored": false,
+                                    "parameters": [
+                                        [
+                                            "address"
+                                        ]
+                                    ],
+                                    "values": [
+                                        "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                                    ],
+                                    "values_raw": [
+                                        "000000000000000000000000dbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                                    ],
+                                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                                    "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+                                    "hex": "0x70a08231",
+                                    "nodes": []
+                                },
+                                {
+                                    "id": "2_5_2_1",
+                                    "type": "function",
+                                    "call_type": "call",
+                                    "action": "transferFrom",
+                                    "ignored": false,
+                                    "parameters": [
+                                        [
+                                            "address",
+                                            "address",
+                                            "uint256"
+                                        ]
+                                    ],
+                                    "values": [
+                                        "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                                        "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                                        260126428577663414478946
+                                    ],
+                                    "values_raw": [
+                                        "000000000000000000000000928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                                        "000000000000000000000000dbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                                        "0000000000000000000000000000000000000000000037157b61067fb834a862"
+                                    ],
+                                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                                    "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+                                    "hex": "0x23b872dd",
+                                    "nodes": []
+                                },
+                                {
+                                    "id": "2_5_2_2",
+                                    "type": "function",
+                                    "call_type": "staticcall",
+                                    "action": "balanceOf",
+                                    "ignored": false,
+                                    "parameters": [
+                                        [
+                                            "address"
+                                        ]
+                                    ],
+                                    "values": [
+                                        "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                                    ],
+                                    "values_raw": [
+                                        "000000000000000000000000dbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                                    ],
+                                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                                    "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+                                    "hex": "0x70a08231",
+                                    "nodes": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "2_6",
+                    "type": "function",
+                    "call_type": "staticcall",
+                    "action": "balanceOf",
+                    "ignored": false,
+                    "parameters": [
+                        [
+                            "address"
+                        ]
+                    ],
+                    "values": [
+                        "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                    ],
+                    "values_raw": [
+                        "000000000000000000000000dbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                    ],
+                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                    "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+                    "hex": "0x70a08231",
+                    "nodes": []
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "type": "function",
+            "call_type": "staticcall",
+            "action": "balanceOf",
+            "ignored": false,
+            "parameters": [
+                [
+                    "address"
+                ]
+            ],
+            "values": [
+                "0x928b2dae97fc5d40cb0552815fb5ab071103e20a"
+            ],
+            "values_raw": [
+                "000000000000000000000000928b2dae97fc5d40cb0552815fb5ab071103e20a"
+            ],
+            "sender": "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+            "receiver": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+            "hex": "0x70a08231",
+            "nodes": []
+        },
+        {
+            "id": "4",
+            "type": "function",
+            "call_type": "call",
+            "action": "0xee9c79d",
+            "ignored": false,
+            "parameters": [
+                "a"
+            ],
+            "values": [
+                "0000000000000000000000000000000000000000000036887795d0ac85b9404d"
+            ],
+            "values_raw": [
+                "0000000000000000000000000000000000000000000036887795d0ac85b9404d",
+                "0000000000000000000000000000000000000000000000000000000000000060",
+                "0000000000000000000000000000000000000000000000000000000000000080",
+                "0000000000000000000000000000000000000000000000000000000000000000",
+                "0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "sender": "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+            "receiver": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+            "hex": "0xee9c79da",
+            "nodes": [
+                {
+                    "id": "4_0",
+                    "type": "function",
+                    "call_type": "staticcall",
+                    "action": "balanceOf",
+                    "ignored": false,
+                    "parameters": [
+                        [
+                            "address"
+                        ]
+                    ],
+                    "values": [
+                        "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                    ],
+                    "values_raw": [
+                        "000000000000000000000000dbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                    ],
+                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                    "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+                    "hex": "0x70a08231",
+                    "nodes": []
+                },
+                {
+                    "id": "4_1",
+                    "type": "function",
+                    "call_type": "call",
+                    "action": "transfer",
+                    "ignored": false,
+                    "parameters": [
+                        [
+                            "address",
+                            "uint256"
+                        ]
+                    ],
+                    "values": [
+                        "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                        124899704681565088462066
+                    ],
+                    "values_raw": [
+                        "000000000000000000000000928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                        "000000000000000000000000000000000000000000001a72d3994ce3088934f2"
+                    ],
+                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                    "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+                    "hex": "0xa9059cbb",
+                    "nodes": []
+                },
+                {
+                    "id": "4_2",
+                    "type": "function",
+                    "call_type": "staticcall",
+                    "action": "balanceOf",
+                    "ignored": false,
+                    "parameters": [
+                        [
+                            "address"
+                        ]
+                    ],
+                    "values": [
+                        "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                    ],
+                    "values_raw": [
+                        "000000000000000000000000dbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                    ],
+                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                    "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+                    "hex": "0x70a08231",
+                    "nodes": []
+                }
+            ]
+        },
+        {
+            "id": "5",
+            "type": "function",
+            "call_type": "staticcall",
+            "action": "balanceOf",
+            "ignored": false,
+            "parameters": [
+                [
+                    "address"
+                ]
+            ],
+            "values": [
+                "0x928b2dae97fc5d40cb0552815fb5ab071103e20a"
+            ],
+            "values_raw": [
+                "000000000000000000000000928b2dae97fc5d40cb0552815fb5ab071103e20a"
+            ],
+            "sender": "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+            "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+            "hex": "0x70a08231",
+            "nodes": []
+        },
+        {
+            "id": "6",
+            "type": "function",
+            "call_type": "call",
+            "action": "transfer",
+            "ignored": false,
+            "parameters": [
+                [
+                    "address",
+                    "uint256"
+                ]
+            ],
+            "values": [
+                "0x2ba9de5ebca7db023dd1f9abce9100e7590d0000",
+                124899704681565088462066
+            ],
+            "values_raw": [
+                "0000000000000000000000002ba9de5ebca7db023dd1f9abce9100e7590d0000",
+                "000000000000000000000000000000000000000000001a72d3994ce3088934f2"
+            ],
+            "sender": "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+            "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+            "hex": "0xa9059cbb",
+            "nodes": []
+        },
+        {
+            "id": "7",
+            "type": "function",
+            "call_type": "staticcall",
+            "action": "balanceOf",
+            "ignored": false,
+            "parameters": [
+                [
+                    "address"
+                ]
+            ],
+            "values": [
+                "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31"
+            ],
+            "values_raw": [
+                "000000000000000000000000dbb20a979a92cccce15229e41c9b082d5b5d7e31"
+            ],
+            "sender": "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+            "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+            "hex": "0x70a08231",
+            "nodes": []
+        },
+        {
+            "id": "8",
+            "type": "function",
+            "call_type": "call",
+            "action": "flash",
+            "ignored": false,
+            "parameters": [
+                [
+                    "address",
+                    "address",
+                    "uint256",
+                    "bytes"
+                ]
+            ],
+            "values": [
+                "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                "0x2f92800f57bcd74066f5709f1daa1a4302df875",
+                135226723896098326016880,
+                "0000000000000000000000000000000000000000000000000000000000000080"
+            ],
+            "values_raw": [
+                "000000000000000000000000928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                "00000000000000000000000002f92800f57bcd74066f5709f1daa1a4302df875",
+                "000000000000000000000000000000000000000000001ca2a7c7b99cafab7370",
+                "0000000000000000000000000000000000000000000000000000000000000080",
+                "0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "sender": "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+            "receiver": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+            "hex": "0xbdbc91ab",
+            "nodes": [
+                {
+                    "id": "8_0",
+                    "type": "function",
+                    "call_type": "staticcall",
+                    "action": "poolRewards",
+                    "ignored": false,
+                    "parameters": [
+                        null
+                    ],
+                    "values": [],
+                    "values_raw": [],
+                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                    "receiver": "0x50fbbb6aa935396075f8200b9d1476bba7b2a4c6",
+                    "hex": "0x8bc6beb2",
+                    "nodes": []
+                },
+                {
+                    "id": "8_1",
+                    "type": "function",
+                    "call_type": "staticcall",
+                    "action": "decimals",
+                    "ignored": false,
+                    "parameters": [
+                        null
+                    ],
+                    "values": [],
+                    "values_raw": [],
+                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                    "receiver": "0x6b175474e89094c44da98b954eedeac495271d0f",
+                    "hex": "0x313ce567",
+                    "nodes": []
+                },
+                {
+                    "id": "8_2",
+                    "type": "function",
+                    "call_type": "call",
+                    "action": "transferFrom",
+                    "ignored": false,
+                    "parameters": [
+                        [
+                            "address",
+                            "address",
+                            "uint256"
+                        ]
+                    ],
+                    "values": [
+                        "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                        "0x37b87ba4c3edb420ed4552f1982c983b55d8b9d1",
+                        10000000000000000000
+                    ],
+                    "values_raw": [
+                        "000000000000000000000000928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                        "00000000000000000000000037b87ba4c3edb420ed4552f1982c983b55d8b9d1",
+                        "0000000000000000000000000000000000000000000000008ac7230489e80000"
+                    ],
+                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                    "receiver": "0x6b175474e89094c44da98b954eedeac495271d0f",
+                    "hex": "0x23b872dd",
+                    "nodes": []
+                },
+                {
+                    "id": "8_3",
+                    "type": "function",
+                    "call_type": "staticcall",
+                    "action": "balanceOf",
+                    "ignored": false,
+                    "parameters": [
+                        [
+                            "address"
+                        ]
+                    ],
+                    "values": [
+                        "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                    ],
+                    "values_raw": [
+                        "000000000000000000000000dbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                    ],
+                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                    "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+                    "hex": "0x70a08231",
+                    "nodes": []
+                },
+                {
+                    "id": "8_4",
+                    "type": "function",
+                    "call_type": "call",
+                    "action": "transfer",
+                    "ignored": false,
+                    "parameters": [
+                        [
+                            "address",
+                            "uint256"
+                        ]
+                    ],
+                    "values": [
+                        "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                        135226723896098326016880
+                    ],
+                    "values_raw": [
+                        "000000000000000000000000928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                        "000000000000000000000000000000000000000000001ca2a7c7b99cafab7370"
+                    ],
+                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                    "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+                    "hex": "0xa9059cbb",
+                    "nodes": []
+                },
+                {
+                    "id": "8_5",
+                    "type": "function",
+                    "call_type": "call",
+                    "action": "callback",
+                    "ignored": false,
+                    "parameters": [
+                        [
+                            "bytes"
+                        ]
+                    ],
+                    "values": [
+                        "0000000000000000000000000000000000000000000000000000000000000020"
+                    ],
+                    "values_raw": [
+                        "0000000000000000000000000000000000000000000000000000000000000020",
+                        "0000000000000000000000000000000000000000000000000000000000000000"
+                    ],
+                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                    "receiver": "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                    "hex": "0xe98a5654",
+                    "nodes": [
+                        {
+                            "id": "8_5_0",
+                            "type": "function",
+                            "call_type": "call",
+                            "action": "approve",
+                            "ignored": false,
+                            "parameters": [
+                                [
+                                    "address",
+                                    "uint256"
+                                ]
+                            ],
+                            "values": [
+                                "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                                115792089237316195423570985008687907853269984665640564039457584007913129639935
+                            ],
+                            "values_raw": [
+                                "000000000000000000000000dbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+                            ],
+                            "sender": "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                            "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+                            "hex": "0x095ea7b3",
+                            "nodes": []
+                        },
+                        {
+                            "id": "8_5_1",
+                            "type": "function",
+                            "call_type": "staticcall",
+                            "action": "balanceOf",
+                            "ignored": false,
+                            "parameters": [
+                                [
+                                    "address"
+                                ]
+                            ],
+                            "values": [
+                                "0x928b2dae97fc5d40cb0552815fb5ab071103e20a"
+                            ],
+                            "values_raw": [
+                                "000000000000000000000000928b2dae97fc5d40cb0552815fb5ab071103e20a"
+                            ],
+                            "sender": "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                            "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+                            "hex": "0x70a08231",
+                            "nodes": []
+                        },
+                        {
+                            "id": "8_5_2",
+                            "type": "function",
+                            "call_type": "call",
+                            "action": "bond",
+                            "ignored": false,
+                            "parameters": [
+                                [
+                                    "address",
+                                    "uint256"
+                                ]
+                            ],
+                            "values": [
+                                "0x2f92800f57bcd74066f5709f1daa1a4302df875",
+                                135226723896098326016880
+                            ],
+                            "values_raw": [
+                                "00000000000000000000000002f92800f57bcd74066f5709f1daa1a4302df875",
+                                "000000000000000000000000000000000000000000001ca2a7c7b99cafab7370"
+                            ],
+                            "sender": "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                            "receiver": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                            "hex": "0xa515366a",
+                            "nodes": [
+                                {
+                                    "id": "8_5_2_0",
+                                    "type": "function",
+                                    "call_type": "staticcall",
+                                    "action": "balanceOf",
+                                    "ignored": false,
+                                    "parameters": [
+                                        [
+                                            "address"
+                                        ]
+                                    ],
+                                    "values": [
+                                        "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                                    ],
+                                    "values_raw": [
+                                        "000000000000000000000000dbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                                    ],
+                                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                                    "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+                                    "hex": "0x70a08231",
+                                    "nodes": []
+                                },
+                                {
+                                    "id": "8_5_2_1",
+                                    "type": "function",
+                                    "call_type": "call",
+                                    "action": "transferFrom",
+                                    "ignored": false,
+                                    "parameters": [
+                                        [
+                                            "address",
+                                            "address",
+                                            "uint256"
+                                        ]
+                                    ],
+                                    "values": [
+                                        "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                                        "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                                        135226723896098326016880
+                                    ],
+                                    "values_raw": [
+                                        "000000000000000000000000928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                                        "000000000000000000000000dbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                                        "000000000000000000000000000000000000000000001ca2a7c7b99cafab7370"
+                                    ],
+                                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                                    "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+                                    "hex": "0x23b872dd",
+                                    "nodes": []
+                                },
+                                {
+                                    "id": "8_5_2_2",
+                                    "type": "function",
+                                    "call_type": "staticcall",
+                                    "action": "balanceOf",
+                                    "ignored": false,
+                                    "parameters": [
+                                        [
+                                            "address"
+                                        ]
+                                    ],
+                                    "values": [
+                                        "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                                    ],
+                                    "values_raw": [
+                                        "000000000000000000000000dbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                                    ],
+                                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                                    "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+                                    "hex": "0x70a08231",
+                                    "nodes": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "8_6",
+                    "type": "function",
+                    "call_type": "staticcall",
+                    "action": "balanceOf",
+                    "ignored": false,
+                    "parameters": [
+                        [
+                            "address"
+                        ]
+                    ],
+                    "values": [
+                        "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                    ],
+                    "values_raw": [
+                        "000000000000000000000000dbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                    ],
+                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                    "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+                    "hex": "0x70a08231",
+                    "nodes": []
+                }
+            ]
+        },
+        {
+            "id": "9",
+            "type": "function",
+            "call_type": "staticcall",
+            "action": "balanceOf",
+            "ignored": false,
+            "parameters": [
+                [
+                    "address"
+                ]
+            ],
+            "values": [
+                "0x928b2dae97fc5d40cb0552815fb5ab071103e20a"
+            ],
+            "values_raw": [
+                "000000000000000000000000928b2dae97fc5d40cb0552815fb5ab071103e20a"
+            ],
+            "sender": "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+            "receiver": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+            "hex": "0x70a08231",
+            "nodes": []
+        },
+        {
+            "id": "10",
+            "type": "function",
+            "call_type": "call",
+            "action": "0xee9c79d",
+            "ignored": false,
+            "parameters": [
+                "a"
+            ],
+            "values": [
+                "000000000000000000000000000000000000000000001c59594d68655bfe3768"
+            ],
+            "values_raw": [
+                "000000000000000000000000000000000000000000001c59594d68655bfe3768",
+                "0000000000000000000000000000000000000000000000000000000000000060",
+                "0000000000000000000000000000000000000000000000000000000000000080",
+                "0000000000000000000000000000000000000000000000000000000000000000",
+                "0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "sender": "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+            "receiver": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+            "hex": "0xee9c79da",
+            "nodes": [
+                {
+                    "id": "10_0",
+                    "type": "function",
+                    "call_type": "staticcall",
+                    "action": "balanceOf",
+                    "ignored": false,
+                    "parameters": [
+                        [
+                            "address"
+                        ]
+                    ],
+                    "values": [
+                        "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                    ],
+                    "values_raw": [
+                        "000000000000000000000000dbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                    ],
+                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                    "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+                    "hex": "0x70a08231",
+                    "nodes": []
+                },
+                {
+                    "id": "10_1",
+                    "type": "function",
+                    "call_type": "call",
+                    "action": "transfer",
+                    "ignored": false,
+                    "parameters": [
+                        [
+                            "address",
+                            "uint256"
+                        ]
+                    ],
+                    "values": [
+                        "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                        43286074319141074158003
+                    ],
+                    "values_raw": [
+                        "000000000000000000000000928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                        "00000000000000000000000000000000000000000000092a8af455ceda54c1b3"
+                    ],
+                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                    "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+                    "hex": "0xa9059cbb",
+                    "nodes": []
+                },
+                {
+                    "id": "10_2",
+                    "type": "function",
+                    "call_type": "staticcall",
+                    "action": "balanceOf",
+                    "ignored": false,
+                    "parameters": [
+                        [
+                            "address"
+                        ]
+                    ],
+                    "values": [
+                        "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                    ],
+                    "values_raw": [
+                        "000000000000000000000000dbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                    ],
+                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                    "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+                    "hex": "0x70a08231",
+                    "nodes": []
+                }
+            ]
+        },
+        {
+            "id": "11",
+            "type": "function",
+            "call_type": "staticcall",
+            "action": "balanceOf",
+            "ignored": false,
+            "parameters": [
+                [
+                    "address"
+                ]
+            ],
+            "values": [
+                "0x928b2dae97fc5d40cb0552815fb5ab071103e20a"
+            ],
+            "values_raw": [
+                "000000000000000000000000928b2dae97fc5d40cb0552815fb5ab071103e20a"
+            ],
+            "sender": "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+            "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+            "hex": "0x70a08231",
+            "nodes": []
+        },
+        {
+            "id": "12",
+            "type": "function",
+            "call_type": "call",
+            "action": "transfer",
+            "ignored": false,
+            "parameters": [
+                [
+                    "address",
+                    "uint256"
+                ]
+            ],
+            "values": [
+                "0x2ba9de5ebca7db023dd1f9abce9100e7590d0000",
+                43286074319141074158003
+            ],
+            "values_raw": [
+                "0000000000000000000000002ba9de5ebca7db023dd1f9abce9100e7590d0000",
+                "00000000000000000000000000000000000000000000092a8af455ceda54c1b3"
+            ],
+            "sender": "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+            "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+            "hex": "0xa9059cbb",
+            "nodes": []
+        },
+        {
+            "id": "13",
+            "type": "function",
+            "call_type": "staticcall",
+            "action": "balanceOf",
+            "ignored": false,
+            "parameters": [
+                [
+                    "address"
+                ]
+            ],
+            "values": [
+                "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31"
+            ],
+            "values_raw": [
+                "000000000000000000000000dbb20a979a92cccce15229e41c9b082d5b5d7e31"
+            ],
+            "sender": "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+            "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+            "hex": "0x70a08231",
+            "nodes": []
+        },
+        {
+            "id": "14",
+            "type": "function",
+            "call_type": "call",
+            "action": "flash",
+            "ignored": false,
+            "parameters": [
+                [
+                    "address",
+                    "address",
+                    "uint256",
+                    "bytes"
+                ]
+            ],
+            "values": [
+                "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                "0x2f92800f57bcd74066f5709f1daa1a4302df875",
+                91940649576957251858877,
+                "0000000000000000000000000000000000000000000000000000000000000080"
+            ],
+            "values_raw": [
+                "000000000000000000000000928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                "00000000000000000000000002f92800f57bcd74066f5709f1daa1a4302df875",
+                "0000000000000000000000000000000000000000000013781cd363cdd556b1bd",
+                "0000000000000000000000000000000000000000000000000000000000000080",
+                "0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "sender": "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+            "receiver": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+            "hex": "0xbdbc91ab",
+            "nodes": [
+                {
+                    "id": "14_0",
+                    "type": "function",
+                    "call_type": "staticcall",
+                    "action": "poolRewards",
+                    "ignored": false,
+                    "parameters": [
+                        null
+                    ],
+                    "values": [],
+                    "values_raw": [],
+                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                    "receiver": "0x50fbbb6aa935396075f8200b9d1476bba7b2a4c6",
+                    "hex": "0x8bc6beb2",
+                    "nodes": []
+                },
+                {
+                    "id": "14_1",
+                    "type": "function",
+                    "call_type": "staticcall",
+                    "action": "decimals",
+                    "ignored": false,
+                    "parameters": [
+                        null
+                    ],
+                    "values": [],
+                    "values_raw": [],
+                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                    "receiver": "0x6b175474e89094c44da98b954eedeac495271d0f",
+                    "hex": "0x313ce567",
+                    "nodes": []
+                },
+                {
+                    "id": "14_2",
+                    "type": "function",
+                    "call_type": "call",
+                    "action": "transferFrom",
+                    "ignored": false,
+                    "parameters": [
+                        [
+                            "address",
+                            "address",
+                            "uint256"
+                        ]
+                    ],
+                    "values": [
+                        "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                        "0x37b87ba4c3edb420ed4552f1982c983b55d8b9d1",
+                        10000000000000000000
+                    ],
+                    "values_raw": [
+                        "000000000000000000000000928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                        "00000000000000000000000037b87ba4c3edb420ed4552f1982c983b55d8b9d1",
+                        "0000000000000000000000000000000000000000000000008ac7230489e80000"
+                    ],
+                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                    "receiver": "0x6b175474e89094c44da98b954eedeac495271d0f",
+                    "hex": "0x23b872dd",
+                    "nodes": []
+                },
+                {
+                    "id": "14_3",
+                    "type": "function",
+                    "call_type": "staticcall",
+                    "action": "balanceOf",
+                    "ignored": false,
+                    "parameters": [
+                        [
+                            "address"
+                        ]
+                    ],
+                    "values": [
+                        "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                    ],
+                    "values_raw": [
+                        "000000000000000000000000dbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                    ],
+                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                    "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+                    "hex": "0x70a08231",
+                    "nodes": []
+                },
+                {
+                    "id": "14_4",
+                    "type": "function",
+                    "call_type": "call",
+                    "action": "transfer",
+                    "ignored": false,
+                    "parameters": [
+                        [
+                            "address",
+                            "uint256"
+                        ]
+                    ],
+                    "values": [
+                        "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                        91940649576957251858877
+                    ],
+                    "values_raw": [
+                        "000000000000000000000000928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                        "0000000000000000000000000000000000000000000013781cd363cdd556b1bd"
+                    ],
+                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                    "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+                    "hex": "0xa9059cbb",
+                    "nodes": []
+                },
+                {
+                    "id": "14_5",
+                    "type": "function",
+                    "call_type": "call",
+                    "action": "callback",
+                    "ignored": false,
+                    "parameters": [
+                        [
+                            "bytes"
+                        ]
+                    ],
+                    "values": [
+                        "0000000000000000000000000000000000000000000000000000000000000020"
+                    ],
+                    "values_raw": [
+                        "0000000000000000000000000000000000000000000000000000000000000020",
+                        "0000000000000000000000000000000000000000000000000000000000000000"
+                    ],
+                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                    "receiver": "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                    "hex": "0xe98a5654",
+                    "nodes": [
+                        {
+                            "id": "14_5_0",
+                            "type": "function",
+                            "call_type": "call",
+                            "action": "approve",
+                            "ignored": false,
+                            "parameters": [
+                                [
+                                    "address",
+                                    "uint256"
+                                ]
+                            ],
+                            "values": [
+                                "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                                115792089237316195423570985008687907853269984665640564039457584007913129639935
+                            ],
+                            "values_raw": [
+                                "000000000000000000000000dbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+                            ],
+                            "sender": "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                            "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+                            "hex": "0x095ea7b3",
+                            "nodes": []
+                        },
+                        {
+                            "id": "14_5_1",
+                            "type": "function",
+                            "call_type": "staticcall",
+                            "action": "balanceOf",
+                            "ignored": false,
+                            "parameters": [
+                                [
+                                    "address"
+                                ]
+                            ],
+                            "values": [
+                                "0x928b2dae97fc5d40cb0552815fb5ab071103e20a"
+                            ],
+                            "values_raw": [
+                                "000000000000000000000000928b2dae97fc5d40cb0552815fb5ab071103e20a"
+                            ],
+                            "sender": "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                            "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+                            "hex": "0x70a08231",
+                            "nodes": []
+                        },
+                        {
+                            "id": "14_5_2",
+                            "type": "function",
+                            "call_type": "call",
+                            "action": "bond",
+                            "ignored": false,
+                            "parameters": [
+                                [
+                                    "address",
+                                    "uint256"
+                                ]
+                            ],
+                            "values": [
+                                "0x2f92800f57bcd74066f5709f1daa1a4302df875",
+                                91940649576957251858877
+                            ],
+                            "values_raw": [
+                                "00000000000000000000000002f92800f57bcd74066f5709f1daa1a4302df875",
+                                "0000000000000000000000000000000000000000000013781cd363cdd556b1bd"
+                            ],
+                            "sender": "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                            "receiver": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                            "hex": "0xa515366a",
+                            "nodes": [
+                                {
+                                    "id": "14_5_2_0",
+                                    "type": "function",
+                                    "call_type": "staticcall",
+                                    "action": "balanceOf",
+                                    "ignored": false,
+                                    "parameters": [
+                                        [
+                                            "address"
+                                        ]
+                                    ],
+                                    "values": [
+                                        "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                                    ],
+                                    "values_raw": [
+                                        "000000000000000000000000dbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                                    ],
+                                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                                    "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+                                    "hex": "0x70a08231",
+                                    "nodes": []
+                                },
+                                {
+                                    "id": "14_5_2_1",
+                                    "type": "function",
+                                    "call_type": "call",
+                                    "action": "transferFrom",
+                                    "ignored": false,
+                                    "parameters": [
+                                        [
+                                            "address",
+                                            "address",
+                                            "uint256"
+                                        ]
+                                    ],
+                                    "values": [
+                                        "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                                        "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                                        91940649576957251858877
+                                    ],
+                                    "values_raw": [
+                                        "000000000000000000000000928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                                        "000000000000000000000000dbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                                        "0000000000000000000000000000000000000000000013781cd363cdd556b1bd"
+                                    ],
+                                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                                    "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+                                    "hex": "0x23b872dd",
+                                    "nodes": []
+                                },
+                                {
+                                    "id": "14_5_2_2",
+                                    "type": "function",
+                                    "call_type": "staticcall",
+                                    "action": "balanceOf",
+                                    "ignored": false,
+                                    "parameters": [
+                                        [
+                                            "address"
+                                        ]
+                                    ],
+                                    "values": [
+                                        "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                                    ],
+                                    "values_raw": [
+                                        "000000000000000000000000dbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                                    ],
+                                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                                    "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+                                    "hex": "0x70a08231",
+                                    "nodes": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "14_6",
+                    "type": "function",
+                    "call_type": "staticcall",
+                    "action": "balanceOf",
+                    "ignored": false,
+                    "parameters": [
+                        [
+                            "address"
+                        ]
+                    ],
+                    "values": [
+                        "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                    ],
+                    "values_raw": [
+                        "000000000000000000000000dbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                    ],
+                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                    "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+                    "hex": "0x70a08231",
+                    "nodes": []
+                }
+            ]
+        },
+        {
+            "id": "15",
+            "type": "function",
+            "call_type": "staticcall",
+            "action": "balanceOf",
+            "ignored": false,
+            "parameters": [
+                [
+                    "address"
+                ]
+            ],
+            "values": [
+                "0x928b2dae97fc5d40cb0552815fb5ab071103e20a"
+            ],
+            "values_raw": [
+                "000000000000000000000000928b2dae97fc5d40cb0552815fb5ab071103e20a"
+            ],
+            "sender": "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+            "receiver": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+            "hex": "0x70a08231",
+            "nodes": []
+        },
+        {
+            "id": "16",
+            "type": "function",
+            "call_type": "call",
+            "action": "0xee9c79d",
+            "ignored": false,
+            "parameters": [
+                "a"
+            ],
+            "values": [
+                "000000000000000000000000000000000000000000001346457f5b2041490701"
+            ],
+            "values_raw": [
+                "000000000000000000000000000000000000000000001346457f5b2041490701",
+                "0000000000000000000000000000000000000000000000000000000000000060",
+                "0000000000000000000000000000000000000000000000000000000000000080",
+                "0000000000000000000000000000000000000000000000000000000000000000",
+                "0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "sender": "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+            "receiver": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+            "hex": "0xee9c79da",
+            "nodes": [
+                {
+                    "id": "16_0",
+                    "type": "function",
+                    "call_type": "staticcall",
+                    "action": "balanceOf",
+                    "ignored": false,
+                    "parameters": [
+                        [
+                            "address"
+                        ]
+                    ],
+                    "values": [
+                        "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                    ],
+                    "values_raw": [
+                        "000000000000000000000000dbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                    ],
+                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                    "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+                    "hex": "0x70a08231",
+                    "nodes": []
+                },
+                {
+                    "id": "16_1",
+                    "type": "function",
+                    "call_type": "call",
+                    "action": "transfer",
+                    "ignored": false,
+                    "parameters": [
+                        [
+                            "address",
+                            "uint256"
+                        ]
+                    ],
+                    "values": [
+                        "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                        22072651447188012240020
+                    ],
+                    "values_raw": [
+                        "000000000000000000000000928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                        "0000000000000000000000000000000000000000000004ac8f92b94c4d458c94"
+                    ],
+                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                    "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+                    "hex": "0xa9059cbb",
+                    "nodes": []
+                },
+                {
+                    "id": "16_2",
+                    "type": "function",
+                    "call_type": "staticcall",
+                    "action": "balanceOf",
+                    "ignored": false,
+                    "parameters": [
+                        [
+                            "address"
+                        ]
+                    ],
+                    "values": [
+                        "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                    ],
+                    "values_raw": [
+                        "000000000000000000000000dbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                    ],
+                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                    "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+                    "hex": "0x70a08231",
+                    "nodes": []
+                }
+            ]
+        },
+        {
+            "id": "17",
+            "type": "function",
+            "call_type": "staticcall",
+            "action": "balanceOf",
+            "ignored": false,
+            "parameters": [
+                [
+                    "address"
+                ]
+            ],
+            "values": [
+                "0x928b2dae97fc5d40cb0552815fb5ab071103e20a"
+            ],
+            "values_raw": [
+                "000000000000000000000000928b2dae97fc5d40cb0552815fb5ab071103e20a"
+            ],
+            "sender": "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+            "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+            "hex": "0x70a08231",
+            "nodes": []
+        },
+        {
+            "id": "18",
+            "type": "function",
+            "call_type": "call",
+            "action": "transfer",
+            "ignored": false,
+            "parameters": [
+                [
+                    "address",
+                    "uint256"
+                ]
+            ],
+            "values": [
+                "0x2ba9de5ebca7db023dd1f9abce9100e7590d0000",
+                22072651447188012240020
+            ],
+            "values_raw": [
+                "0000000000000000000000002ba9de5ebca7db023dd1f9abce9100e7590d0000",
+                "0000000000000000000000000000000000000000000004ac8f92b94c4d458c94"
+            ],
+            "sender": "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+            "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+            "hex": "0xa9059cbb",
+            "nodes": []
+        },
+        {
+            "id": "19",
+            "type": "function",
+            "call_type": "staticcall",
+            "action": "balanceOf",
+            "ignored": false,
+            "parameters": [
+                [
+                    "address"
+                ]
+            ],
+            "values": [
+                "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31"
+            ],
+            "values_raw": [
+                "000000000000000000000000dbb20a979a92cccce15229e41c9b082d5b5d7e31"
+            ],
+            "sender": "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+            "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+            "hex": "0x70a08231",
+            "nodes": []
+        },
+        {
+            "id": "20",
+            "type": "function",
+            "call_type": "call",
+            "action": "flash",
+            "ignored": false,
+            "parameters": [
+                [
+                    "address",
+                    "address",
+                    "uint256",
+                    "bytes"
+                ]
+            ],
+            "values": [
+                "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                "0x2f92800f57bcd74066f5709f1daa1a4302df875",
+                69867998129769239618857,
+                "0000000000000000000000000000000000000000000000000000000000000080"
+            ],
+            "values_raw": [
+                "000000000000000000000000928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                "00000000000000000000000002f92800f57bcd74066f5709f1daa1a4302df875",
+                "000000000000000000000000000000000000000000000ecb8d40aa8188112529",
+                "0000000000000000000000000000000000000000000000000000000000000080",
+                "0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "sender": "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+            "receiver": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+            "hex": "0xbdbc91ab",
+            "nodes": [
+                {
+                    "id": "20_0",
+                    "type": "function",
+                    "call_type": "staticcall",
+                    "action": "poolRewards",
+                    "ignored": false,
+                    "parameters": [
+                        null
+                    ],
+                    "values": [],
+                    "values_raw": [],
+                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                    "receiver": "0x50fbbb6aa935396075f8200b9d1476bba7b2a4c6",
+                    "hex": "0x8bc6beb2",
+                    "nodes": []
+                },
+                {
+                    "id": "20_1",
+                    "type": "function",
+                    "call_type": "staticcall",
+                    "action": "decimals",
+                    "ignored": false,
+                    "parameters": [
+                        null
+                    ],
+                    "values": [],
+                    "values_raw": [],
+                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                    "receiver": "0x6b175474e89094c44da98b954eedeac495271d0f",
+                    "hex": "0x313ce567",
+                    "nodes": []
+                },
+                {
+                    "id": "20_2",
+                    "type": "function",
+                    "call_type": "call",
+                    "action": "transferFrom",
+                    "ignored": false,
+                    "parameters": [
+                        [
+                            "address",
+                            "address",
+                            "uint256"
+                        ]
+                    ],
+                    "values": [
+                        "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                        "0x37b87ba4c3edb420ed4552f1982c983b55d8b9d1",
+                        10000000000000000000
+                    ],
+                    "values_raw": [
+                        "000000000000000000000000928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                        "00000000000000000000000037b87ba4c3edb420ed4552f1982c983b55d8b9d1",
+                        "0000000000000000000000000000000000000000000000008ac7230489e80000"
+                    ],
+                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                    "receiver": "0x6b175474e89094c44da98b954eedeac495271d0f",
+                    "hex": "0x23b872dd",
+                    "nodes": []
+                },
+                {
+                    "id": "20_3",
+                    "type": "function",
+                    "call_type": "staticcall",
+                    "action": "balanceOf",
+                    "ignored": false,
+                    "parameters": [
+                        [
+                            "address"
+                        ]
+                    ],
+                    "values": [
+                        "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                    ],
+                    "values_raw": [
+                        "000000000000000000000000dbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                    ],
+                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                    "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+                    "hex": "0x70a08231",
+                    "nodes": []
+                },
+                {
+                    "id": "20_4",
+                    "type": "function",
+                    "call_type": "call",
+                    "action": "transfer",
+                    "ignored": false,
+                    "parameters": [
+                        [
+                            "address",
+                            "uint256"
+                        ]
+                    ],
+                    "values": [
+                        "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                        69867998129769239618857
+                    ],
+                    "values_raw": [
+                        "000000000000000000000000928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                        "000000000000000000000000000000000000000000000ecb8d40aa8188112529"
+                    ],
+                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                    "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+                    "hex": "0xa9059cbb",
+                    "nodes": []
+                },
+                {
+                    "id": "20_5",
+                    "type": "function",
+                    "call_type": "call",
+                    "action": "callback",
+                    "ignored": false,
+                    "parameters": [
+                        [
+                            "bytes"
+                        ]
+                    ],
+                    "values": [
+                        "0000000000000000000000000000000000000000000000000000000000000020"
+                    ],
+                    "values_raw": [
+                        "0000000000000000000000000000000000000000000000000000000000000020",
+                        "0000000000000000000000000000000000000000000000000000000000000000"
+                    ],
+                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                    "receiver": "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                    "hex": "0xe98a5654",
+                    "nodes": [
+                        {
+                            "id": "20_5_0",
+                            "type": "function",
+                            "call_type": "call",
+                            "action": "approve",
+                            "ignored": false,
+                            "parameters": [
+                                [
+                                    "address",
+                                    "uint256"
+                                ]
+                            ],
+                            "values": [
+                                "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                                115792089237316195423570985008687907853269984665640564039457584007913129639935
+                            ],
+                            "values_raw": [
+                                "000000000000000000000000dbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+                            ],
+                            "sender": "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                            "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+                            "hex": "0x095ea7b3",
+                            "nodes": []
+                        },
+                        {
+                            "id": "20_5_1",
+                            "type": "function",
+                            "call_type": "staticcall",
+                            "action": "balanceOf",
+                            "ignored": false,
+                            "parameters": [
+                                [
+                                    "address"
+                                ]
+                            ],
+                            "values": [
+                                "0x928b2dae97fc5d40cb0552815fb5ab071103e20a"
+                            ],
+                            "values_raw": [
+                                "000000000000000000000000928b2dae97fc5d40cb0552815fb5ab071103e20a"
+                            ],
+                            "sender": "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                            "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+                            "hex": "0x70a08231",
+                            "nodes": []
+                        },
+                        {
+                            "id": "20_5_2",
+                            "type": "function",
+                            "call_type": "call",
+                            "action": "bond",
+                            "ignored": false,
+                            "parameters": [
+                                [
+                                    "address",
+                                    "uint256"
+                                ]
+                            ],
+                            "values": [
+                                "0x2f92800f57bcd74066f5709f1daa1a4302df875",
+                                69867998129769239618857
+                            ],
+                            "values_raw": [
+                                "00000000000000000000000002f92800f57bcd74066f5709f1daa1a4302df875",
+                                "000000000000000000000000000000000000000000000ecb8d40aa8188112529"
+                            ],
+                            "sender": "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                            "receiver": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                            "hex": "0xa515366a",
+                            "nodes": [
+                                {
+                                    "id": "20_5_2_0",
+                                    "type": "function",
+                                    "call_type": "staticcall",
+                                    "action": "balanceOf",
+                                    "ignored": false,
+                                    "parameters": [
+                                        [
+                                            "address"
+                                        ]
+                                    ],
+                                    "values": [
+                                        "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                                    ],
+                                    "values_raw": [
+                                        "000000000000000000000000dbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                                    ],
+                                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                                    "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+                                    "hex": "0x70a08231",
+                                    "nodes": []
+                                },
+                                {
+                                    "id": "20_5_2_1",
+                                    "type": "function",
+                                    "call_type": "call",
+                                    "action": "transferFrom",
+                                    "ignored": false,
+                                    "parameters": [
+                                        [
+                                            "address",
+                                            "address",
+                                            "uint256"
+                                        ]
+                                    ],
+                                    "values": [
+                                        "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                                        "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                                        69867998129769239618857
+                                    ],
+                                    "values_raw": [
+                                        "000000000000000000000000928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                                        "000000000000000000000000dbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                                        "000000000000000000000000000000000000000000000ecb8d40aa8188112529"
+                                    ],
+                                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                                    "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+                                    "hex": "0x23b872dd",
+                                    "nodes": []
+                                },
+                                {
+                                    "id": "20_5_2_2",
+                                    "type": "function",
+                                    "call_type": "staticcall",
+                                    "action": "balanceOf",
+                                    "ignored": false,
+                                    "parameters": [
+                                        [
+                                            "address"
+                                        ]
+                                    ],
+                                    "values": [
+                                        "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                                    ],
+                                    "values_raw": [
+                                        "000000000000000000000000dbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                                    ],
+                                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                                    "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+                                    "hex": "0x70a08231",
+                                    "nodes": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "20_6",
+                    "type": "function",
+                    "call_type": "staticcall",
+                    "action": "balanceOf",
+                    "ignored": false,
+                    "parameters": [
+                        [
+                            "address"
+                        ]
+                    ],
+                    "values": [
+                        "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                    ],
+                    "values_raw": [
+                        "000000000000000000000000dbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                    ],
+                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                    "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+                    "hex": "0x70a08231",
+                    "nodes": []
+                }
+            ]
+        },
+        {
+            "id": "21",
+            "type": "function",
+            "call_type": "staticcall",
+            "action": "balanceOf",
+            "ignored": false,
+            "parameters": [
+                [
+                    "address"
+                ]
+            ],
+            "values": [
+                "0x928b2dae97fc5d40cb0552815fb5ab071103e20a"
+            ],
+            "values_raw": [
+                "000000000000000000000000928b2dae97fc5d40cb0552815fb5ab071103e20a"
+            ],
+            "sender": "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+            "receiver": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+            "hex": "0x70a08231",
+            "nodes": []
+        },
+        {
+            "id": "22",
+            "type": "function",
+            "call_type": "call",
+            "action": "0xee9c79d",
+            "ignored": false,
+            "parameters": [
+                "a"
+            ],
+            "values": [
+                "000000000000000000000000000000000000000000000ea5ad1ebd47ea8bda8d"
+            ],
+            "values_raw": [
+                "000000000000000000000000000000000000000000000ea5ad1ebd47ea8bda8d",
+                "0000000000000000000000000000000000000000000000000000000000000060",
+                "0000000000000000000000000000000000000000000000000000000000000080",
+                "0000000000000000000000000000000000000000000000000000000000000000",
+                "0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "sender": "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+            "receiver": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+            "hex": "0xee9c79da",
+            "nodes": [
+                {
+                    "id": "22_0",
+                    "type": "function",
+                    "call_type": "staticcall",
+                    "action": "balanceOf",
+                    "ignored": false,
+                    "parameters": [
+                        [
+                            "address"
+                        ]
+                    ],
+                    "values": [
+                        "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                    ],
+                    "values_raw": [
+                        "000000000000000000000000dbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                    ],
+                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                    "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+                    "hex": "0x70a08231",
+                    "nodes": []
+                },
+                {
+                    "id": "22_1",
+                    "type": "function",
+                    "call_type": "call",
+                    "action": "transfer",
+                    "ignored": false,
+                    "parameters": [
+                        [
+                            "address",
+                            "uint256"
+                        ]
+                    ],
+                    "values": [
+                        "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                        13418847720803480161197
+                    ],
+                    "values_raw": [
+                        "000000000000000000000000928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                        "0000000000000000000000000000000000000000000002d76febd9f7ef8ccbad"
+                    ],
+                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                    "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+                    "hex": "0xa9059cbb",
+                    "nodes": []
+                },
+                {
+                    "id": "22_2",
+                    "type": "function",
+                    "call_type": "staticcall",
+                    "action": "balanceOf",
+                    "ignored": false,
+                    "parameters": [
+                        [
+                            "address"
+                        ]
+                    ],
+                    "values": [
+                        "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                    ],
+                    "values_raw": [
+                        "000000000000000000000000dbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                    ],
+                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                    "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+                    "hex": "0x70a08231",
+                    "nodes": []
+                }
+            ]
+        },
+        {
+            "id": "23",
+            "type": "function",
+            "call_type": "staticcall",
+            "action": "balanceOf",
+            "ignored": false,
+            "parameters": [
+                [
+                    "address"
+                ]
+            ],
+            "values": [
+                "0x928b2dae97fc5d40cb0552815fb5ab071103e20a"
+            ],
+            "values_raw": [
+                "000000000000000000000000928b2dae97fc5d40cb0552815fb5ab071103e20a"
+            ],
+            "sender": "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+            "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+            "hex": "0x70a08231",
+            "nodes": []
+        },
+        {
+            "id": "24",
+            "type": "function",
+            "call_type": "call",
+            "action": "transfer",
+            "ignored": false,
+            "parameters": [
+                [
+                    "address",
+                    "uint256"
+                ]
+            ],
+            "values": [
+                "0x2ba9de5ebca7db023dd1f9abce9100e7590d0000",
+                13418847720803480161197
+            ],
+            "values_raw": [
+                "0000000000000000000000002ba9de5ebca7db023dd1f9abce9100e7590d0000",
+                "0000000000000000000000000000000000000000000002d76febd9f7ef8ccbad"
+            ],
+            "sender": "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+            "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+            "hex": "0xa9059cbb",
+            "nodes": []
+        },
+        {
+            "id": "25",
+            "type": "function",
+            "call_type": "staticcall",
+            "action": "balanceOf",
+            "ignored": false,
+            "parameters": [
+                [
+                    "address"
+                ]
+            ],
+            "values": [
+                "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31"
+            ],
+            "values_raw": [
+                "000000000000000000000000dbb20a979a92cccce15229e41c9b082d5b5d7e31"
+            ],
+            "sender": "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+            "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+            "hex": "0x70a08231",
+            "nodes": []
+        },
+        {
+            "id": "26",
+            "type": "function",
+            "call_type": "call",
+            "action": "flash",
+            "ignored": false,
+            "parameters": [
+                [
+                    "address",
+                    "address",
+                    "uint256",
+                    "bytes"
+                ]
+            ],
+            "values": [
+                "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                "0x2f92800f57bcd74066f5709f1daa1a4302df875",
+                56449150408965759457660,
+                "0000000000000000000000000000000000000000000000000000000000000080"
+            ],
+            "values_raw": [
+                "000000000000000000000000928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                "00000000000000000000000002f92800f57bcd74066f5709f1daa1a4302df875",
+                "000000000000000000000000000000000000000000000bf41d54d0899884597c",
+                "0000000000000000000000000000000000000000000000000000000000000080",
+                "0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "sender": "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+            "receiver": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+            "hex": "0xbdbc91ab",
+            "nodes": [
+                {
+                    "id": "26_0",
+                    "type": "function",
+                    "call_type": "staticcall",
+                    "action": "poolRewards",
+                    "ignored": false,
+                    "parameters": [
+                        null
+                    ],
+                    "values": [],
+                    "values_raw": [],
+                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                    "receiver": "0x50fbbb6aa935396075f8200b9d1476bba7b2a4c6",
+                    "hex": "0x8bc6beb2",
+                    "nodes": []
+                },
+                {
+                    "id": "26_1",
+                    "type": "function",
+                    "call_type": "staticcall",
+                    "action": "decimals",
+                    "ignored": false,
+                    "parameters": [
+                        null
+                    ],
+                    "values": [],
+                    "values_raw": [],
+                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                    "receiver": "0x6b175474e89094c44da98b954eedeac495271d0f",
+                    "hex": "0x313ce567",
+                    "nodes": []
+                },
+                {
+                    "id": "26_2",
+                    "type": "function",
+                    "call_type": "call",
+                    "action": "transferFrom",
+                    "ignored": false,
+                    "parameters": [
+                        [
+                            "address",
+                            "address",
+                            "uint256"
+                        ]
+                    ],
+                    "values": [
+                        "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                        "0x37b87ba4c3edb420ed4552f1982c983b55d8b9d1",
+                        10000000000000000000
+                    ],
+                    "values_raw": [
+                        "000000000000000000000000928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                        "00000000000000000000000037b87ba4c3edb420ed4552f1982c983b55d8b9d1",
+                        "0000000000000000000000000000000000000000000000008ac7230489e80000"
+                    ],
+                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                    "receiver": "0x6b175474e89094c44da98b954eedeac495271d0f",
+                    "hex": "0x23b872dd",
+                    "nodes": []
+                },
+                {
+                    "id": "26_3",
+                    "type": "function",
+                    "call_type": "staticcall",
+                    "action": "balanceOf",
+                    "ignored": false,
+                    "parameters": [
+                        [
+                            "address"
+                        ]
+                    ],
+                    "values": [
+                        "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                    ],
+                    "values_raw": [
+                        "000000000000000000000000dbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                    ],
+                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                    "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+                    "hex": "0x70a08231",
+                    "nodes": []
+                },
+                {
+                    "id": "26_4",
+                    "type": "function",
+                    "call_type": "call",
+                    "action": "transfer",
+                    "ignored": false,
+                    "parameters": [
+                        [
+                            "address",
+                            "uint256"
+                        ]
+                    ],
+                    "values": [
+                        "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                        56449150408965759457660
+                    ],
+                    "values_raw": [
+                        "000000000000000000000000928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                        "000000000000000000000000000000000000000000000bf41d54d0899884597c"
+                    ],
+                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                    "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+                    "hex": "0xa9059cbb",
+                    "nodes": []
+                },
+                {
+                    "id": "26_5",
+                    "type": "function",
+                    "call_type": "call",
+                    "action": "callback",
+                    "ignored": false,
+                    "parameters": [
+                        [
+                            "bytes"
+                        ]
+                    ],
+                    "values": [
+                        "0000000000000000000000000000000000000000000000000000000000000020"
+                    ],
+                    "values_raw": [
+                        "0000000000000000000000000000000000000000000000000000000000000020",
+                        "0000000000000000000000000000000000000000000000000000000000000000"
+                    ],
+                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                    "receiver": "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                    "hex": "0xe98a5654",
+                    "nodes": [
+                        {
+                            "id": "26_5_0",
+                            "type": "function",
+                            "call_type": "call",
+                            "action": "approve",
+                            "ignored": false,
+                            "parameters": [
+                                [
+                                    "address",
+                                    "uint256"
+                                ]
+                            ],
+                            "values": [
+                                "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                                115792089237316195423570985008687907853269984665640564039457584007913129639935
+                            ],
+                            "values_raw": [
+                                "000000000000000000000000dbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+                            ],
+                            "sender": "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                            "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+                            "hex": "0x095ea7b3",
+                            "nodes": []
+                        },
+                        {
+                            "id": "26_5_1",
+                            "type": "function",
+                            "call_type": "staticcall",
+                            "action": "balanceOf",
+                            "ignored": false,
+                            "parameters": [
+                                [
+                                    "address"
+                                ]
+                            ],
+                            "values": [
+                                "0x928b2dae97fc5d40cb0552815fb5ab071103e20a"
+                            ],
+                            "values_raw": [
+                                "000000000000000000000000928b2dae97fc5d40cb0552815fb5ab071103e20a"
+                            ],
+                            "sender": "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                            "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+                            "hex": "0x70a08231",
+                            "nodes": []
+                        },
+                        {
+                            "id": "26_5_2",
+                            "type": "function",
+                            "call_type": "call",
+                            "action": "bond",
+                            "ignored": false,
+                            "parameters": [
+                                [
+                                    "address",
+                                    "uint256"
+                                ]
+                            ],
+                            "values": [
+                                "0x2f92800f57bcd74066f5709f1daa1a4302df875",
+                                56449150408965759457660
+                            ],
+                            "values_raw": [
+                                "00000000000000000000000002f92800f57bcd74066f5709f1daa1a4302df875",
+                                "000000000000000000000000000000000000000000000bf41d54d0899884597c"
+                            ],
+                            "sender": "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                            "receiver": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                            "hex": "0xa515366a",
+                            "nodes": [
+                                {
+                                    "id": "26_5_2_0",
+                                    "type": "function",
+                                    "call_type": "staticcall",
+                                    "action": "balanceOf",
+                                    "ignored": false,
+                                    "parameters": [
+                                        [
+                                            "address"
+                                        ]
+                                    ],
+                                    "values": [
+                                        "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                                    ],
+                                    "values_raw": [
+                                        "000000000000000000000000dbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                                    ],
+                                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                                    "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+                                    "hex": "0x70a08231",
+                                    "nodes": []
+                                },
+                                {
+                                    "id": "26_5_2_1",
+                                    "type": "function",
+                                    "call_type": "call",
+                                    "action": "transferFrom",
+                                    "ignored": false,
+                                    "parameters": [
+                                        [
+                                            "address",
+                                            "address",
+                                            "uint256"
+                                        ]
+                                    ],
+                                    "values": [
+                                        "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                                        "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                                        56449150408965759457660
+                                    ],
+                                    "values_raw": [
+                                        "000000000000000000000000928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                                        "000000000000000000000000dbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                                        "000000000000000000000000000000000000000000000bf41d54d0899884597c"
+                                    ],
+                                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                                    "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+                                    "hex": "0x23b872dd",
+                                    "nodes": []
+                                },
+                                {
+                                    "id": "26_5_2_2",
+                                    "type": "function",
+                                    "call_type": "staticcall",
+                                    "action": "balanceOf",
+                                    "ignored": false,
+                                    "parameters": [
+                                        [
+                                            "address"
+                                        ]
+                                    ],
+                                    "values": [
+                                        "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                                    ],
+                                    "values_raw": [
+                                        "000000000000000000000000dbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                                    ],
+                                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                                    "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+                                    "hex": "0x70a08231",
+                                    "nodes": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "26_6",
+                    "type": "function",
+                    "call_type": "staticcall",
+                    "action": "balanceOf",
+                    "ignored": false,
+                    "parameters": [
+                        [
+                            "address"
+                        ]
+                    ],
+                    "values": [
+                        "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                    ],
+                    "values_raw": [
+                        "000000000000000000000000dbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                    ],
+                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                    "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+                    "hex": "0x70a08231",
+                    "nodes": []
+                }
+            ]
+        },
+        {
+            "id": "27",
+            "type": "function",
+            "call_type": "staticcall",
+            "action": "balanceOf",
+            "ignored": false,
+            "parameters": [
+                [
+                    "address"
+                ]
+            ],
+            "values": [
+                "0x928b2dae97fc5d40cb0552815fb5ab071103e20a"
+            ],
+            "values_raw": [
+                "000000000000000000000000928b2dae97fc5d40cb0552815fb5ab071103e20a"
+            ],
+            "sender": "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+            "receiver": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+            "hex": "0x70a08231",
+            "nodes": []
+        },
+        {
+            "id": "28",
+            "type": "function",
+            "call_type": "call",
+            "action": "0xee9c79d",
+            "ignored": false,
+            "parameters": [
+                "a"
+            ],
+            "values": [
+                "000000000000000000000000000000000000000000000bd58370205f428306ac"
+            ],
+            "values_raw": [
+                "000000000000000000000000000000000000000000000bd58370205f428306ac",
+                "0000000000000000000000000000000000000000000000000000000000000060",
+                "0000000000000000000000000000000000000000000000000000000000000080",
+                "0000000000000000000000000000000000000000000000000000000000000000",
+                "0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "sender": "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+            "receiver": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+            "hex": "0xee9c79da",
+            "nodes": [
+                {
+                    "id": "28_0",
+                    "type": "function",
+                    "call_type": "staticcall",
+                    "action": "balanceOf",
+                    "ignored": false,
+                    "parameters": [
+                        [
+                            "address"
+                        ]
+                    ],
+                    "values": [
+                        "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                    ],
+                    "values_raw": [
+                        "000000000000000000000000dbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                    ],
+                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                    "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+                    "hex": "0x70a08231",
+                    "nodes": []
+                },
+                {
+                    "id": "28_1",
+                    "type": "function",
+                    "call_type": "call",
+                    "action": "transfer",
+                    "ignored": false,
+                    "parameters": [
+                        [
+                            "address",
+                            "uint256"
+                        ]
+                    ],
+                    "values": [
+                        "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                        9034686522954969801198
+                    ],
+                    "values_raw": [
+                        "000000000000000000000000928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                        "0000000000000000000000000000000000000000000001e9c57664ce8c0861ee"
+                    ],
+                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                    "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+                    "hex": "0xa9059cbb",
+                    "nodes": []
+                },
+                {
+                    "id": "28_2",
+                    "type": "function",
+                    "call_type": "staticcall",
+                    "action": "balanceOf",
+                    "ignored": false,
+                    "parameters": [
+                        [
+                            "address"
+                        ]
+                    ],
+                    "values": [
+                        "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                    ],
+                    "values_raw": [
+                        "000000000000000000000000dbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                    ],
+                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                    "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+                    "hex": "0x70a08231",
+                    "nodes": []
+                }
+            ]
+        },
+        {
+            "id": "29",
+            "type": "function",
+            "call_type": "staticcall",
+            "action": "balanceOf",
+            "ignored": false,
+            "parameters": [
+                [
+                    "address"
+                ]
+            ],
+            "values": [
+                "0x928b2dae97fc5d40cb0552815fb5ab071103e20a"
+            ],
+            "values_raw": [
+                "000000000000000000000000928b2dae97fc5d40cb0552815fb5ab071103e20a"
+            ],
+            "sender": "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+            "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+            "hex": "0x70a08231",
+            "nodes": []
+        },
+        {
+            "id": "30",
+            "type": "function",
+            "call_type": "call",
+            "action": "transfer",
+            "ignored": false,
+            "parameters": [
+                [
+                    "address",
+                    "uint256"
+                ]
+            ],
+            "values": [
+                "0x2ba9de5ebca7db023dd1f9abce9100e7590d0000",
+                9034686522954969801198
+            ],
+            "values_raw": [
+                "0000000000000000000000002ba9de5ebca7db023dd1f9abce9100e7590d0000",
+                "0000000000000000000000000000000000000000000001e9c57664ce8c0861ee"
+            ],
+            "sender": "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+            "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+            "hex": "0xa9059cbb",
+            "nodes": []
+        },
+        {
+            "id": "31",
+            "type": "function",
+            "call_type": "staticcall",
+            "action": "balanceOf",
+            "ignored": false,
+            "parameters": [
+                [
+                    "address"
+                ]
+            ],
+            "values": [
+                "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31"
+            ],
+            "values_raw": [
+                "000000000000000000000000dbb20a979a92cccce15229e41c9b082d5b5d7e31"
+            ],
+            "sender": "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+            "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+            "hex": "0x70a08231",
+            "nodes": []
+        },
+        {
+            "id": "32",
+            "type": "function",
+            "call_type": "call",
+            "action": "flash",
+            "ignored": false,
+            "parameters": [
+                [
+                    "address",
+                    "address",
+                    "uint256",
+                    "bytes"
+                ]
+            ],
+            "values": [
+                "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                "0x2f92800f57bcd74066f5709f1daa1a4302df875",
+                47414463886010789656462,
+                "0000000000000000000000000000000000000000000000000000000000000080"
+            ],
+            "values_raw": [
+                "000000000000000000000000928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                "00000000000000000000000002f92800f57bcd74066f5709f1daa1a4302df875",
+                "000000000000000000000000000000000000000000000a0a57de6bbb0c7bf78e",
+                "0000000000000000000000000000000000000000000000000000000000000080",
+                "0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "sender": "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+            "receiver": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+            "hex": "0xbdbc91ab",
+            "nodes": [
+                {
+                    "id": "32_0",
+                    "type": "function",
+                    "call_type": "staticcall",
+                    "action": "poolRewards",
+                    "ignored": false,
+                    "parameters": [
+                        null
+                    ],
+                    "values": [],
+                    "values_raw": [],
+                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                    "receiver": "0x50fbbb6aa935396075f8200b9d1476bba7b2a4c6",
+                    "hex": "0x8bc6beb2",
+                    "nodes": []
+                },
+                {
+                    "id": "32_1",
+                    "type": "function",
+                    "call_type": "staticcall",
+                    "action": "decimals",
+                    "ignored": false,
+                    "parameters": [
+                        null
+                    ],
+                    "values": [],
+                    "values_raw": [],
+                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                    "receiver": "0x6b175474e89094c44da98b954eedeac495271d0f",
+                    "hex": "0x313ce567",
+                    "nodes": []
+                },
+                {
+                    "id": "32_2",
+                    "type": "function",
+                    "call_type": "call",
+                    "action": "transferFrom",
+                    "ignored": false,
+                    "parameters": [
+                        [
+                            "address",
+                            "address",
+                            "uint256"
+                        ]
+                    ],
+                    "values": [
+                        "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                        "0x37b87ba4c3edb420ed4552f1982c983b55d8b9d1",
+                        10000000000000000000
+                    ],
+                    "values_raw": [
+                        "000000000000000000000000928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                        "00000000000000000000000037b87ba4c3edb420ed4552f1982c983b55d8b9d1",
+                        "0000000000000000000000000000000000000000000000008ac7230489e80000"
+                    ],
+                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                    "receiver": "0x6b175474e89094c44da98b954eedeac495271d0f",
+                    "hex": "0x23b872dd",
+                    "nodes": []
+                },
+                {
+                    "id": "32_3",
+                    "type": "function",
+                    "call_type": "staticcall",
+                    "action": "balanceOf",
+                    "ignored": false,
+                    "parameters": [
+                        [
+                            "address"
+                        ]
+                    ],
+                    "values": [
+                        "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                    ],
+                    "values_raw": [
+                        "000000000000000000000000dbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                    ],
+                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                    "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+                    "hex": "0x70a08231",
+                    "nodes": []
+                },
+                {
+                    "id": "32_4",
+                    "type": "function",
+                    "call_type": "call",
+                    "action": "transfer",
+                    "ignored": false,
+                    "parameters": [
+                        [
+                            "address",
+                            "uint256"
+                        ]
+                    ],
+                    "values": [
+                        "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                        47414463886010789656462
+                    ],
+                    "values_raw": [
+                        "000000000000000000000000928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                        "000000000000000000000000000000000000000000000a0a57de6bbb0c7bf78e"
+                    ],
+                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                    "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+                    "hex": "0xa9059cbb",
+                    "nodes": []
+                },
+                {
+                    "id": "32_5",
+                    "type": "function",
+                    "call_type": "call",
+                    "action": "callback",
+                    "ignored": false,
+                    "parameters": [
+                        [
+                            "bytes"
+                        ]
+                    ],
+                    "values": [
+                        "0000000000000000000000000000000000000000000000000000000000000020"
+                    ],
+                    "values_raw": [
+                        "0000000000000000000000000000000000000000000000000000000000000020",
+                        "0000000000000000000000000000000000000000000000000000000000000000"
+                    ],
+                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                    "receiver": "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                    "hex": "0xe98a5654",
+                    "nodes": [
+                        {
+                            "id": "32_5_0",
+                            "type": "function",
+                            "call_type": "call",
+                            "action": "approve",
+                            "ignored": false,
+                            "parameters": [
+                                [
+                                    "address",
+                                    "uint256"
+                                ]
+                            ],
+                            "values": [
+                                "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                                115792089237316195423570985008687907853269984665640564039457584007913129639935
+                            ],
+                            "values_raw": [
+                                "000000000000000000000000dbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+                            ],
+                            "sender": "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                            "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+                            "hex": "0x095ea7b3",
+                            "nodes": []
+                        },
+                        {
+                            "id": "32_5_1",
+                            "type": "function",
+                            "call_type": "staticcall",
+                            "action": "balanceOf",
+                            "ignored": false,
+                            "parameters": [
+                                [
+                                    "address"
+                                ]
+                            ],
+                            "values": [
+                                "0x928b2dae97fc5d40cb0552815fb5ab071103e20a"
+                            ],
+                            "values_raw": [
+                                "000000000000000000000000928b2dae97fc5d40cb0552815fb5ab071103e20a"
+                            ],
+                            "sender": "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                            "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+                            "hex": "0x70a08231",
+                            "nodes": []
+                        },
+                        {
+                            "id": "32_5_2",
+                            "type": "function",
+                            "call_type": "call",
+                            "action": "bond",
+                            "ignored": false,
+                            "parameters": [
+                                [
+                                    "address",
+                                    "uint256"
+                                ]
+                            ],
+                            "values": [
+                                "0x2f92800f57bcd74066f5709f1daa1a4302df875",
+                                47414463886010789656462
+                            ],
+                            "values_raw": [
+                                "00000000000000000000000002f92800f57bcd74066f5709f1daa1a4302df875",
+                                "000000000000000000000000000000000000000000000a0a57de6bbb0c7bf78e"
+                            ],
+                            "sender": "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                            "receiver": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                            "hex": "0xa515366a",
+                            "nodes": [
+                                {
+                                    "id": "32_5_2_0",
+                                    "type": "function",
+                                    "call_type": "staticcall",
+                                    "action": "balanceOf",
+                                    "ignored": false,
+                                    "parameters": [
+                                        [
+                                            "address"
+                                        ]
+                                    ],
+                                    "values": [
+                                        "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                                    ],
+                                    "values_raw": [
+                                        "000000000000000000000000dbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                                    ],
+                                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                                    "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+                                    "hex": "0x70a08231",
+                                    "nodes": []
+                                },
+                                {
+                                    "id": "32_5_2_1",
+                                    "type": "function",
+                                    "call_type": "call",
+                                    "action": "transferFrom",
+                                    "ignored": false,
+                                    "parameters": [
+                                        [
+                                            "address",
+                                            "address",
+                                            "uint256"
+                                        ]
+                                    ],
+                                    "values": [
+                                        "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                                        "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                                        47414463886010789656462
+                                    ],
+                                    "values_raw": [
+                                        "000000000000000000000000928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                                        "000000000000000000000000dbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                                        "000000000000000000000000000000000000000000000a0a57de6bbb0c7bf78e"
+                                    ],
+                                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                                    "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+                                    "hex": "0x23b872dd",
+                                    "nodes": []
+                                },
+                                {
+                                    "id": "32_5_2_2",
+                                    "type": "function",
+                                    "call_type": "staticcall",
+                                    "action": "balanceOf",
+                                    "ignored": false,
+                                    "parameters": [
+                                        [
+                                            "address"
+                                        ]
+                                    ],
+                                    "values": [
+                                        "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                                    ],
+                                    "values_raw": [
+                                        "000000000000000000000000dbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                                    ],
+                                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                                    "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+                                    "hex": "0x70a08231",
+                                    "nodes": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "32_6",
+                    "type": "function",
+                    "call_type": "staticcall",
+                    "action": "balanceOf",
+                    "ignored": false,
+                    "parameters": [
+                        [
+                            "address"
+                        ]
+                    ],
+                    "values": [
+                        "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                    ],
+                    "values_raw": [
+                        "000000000000000000000000dbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                    ],
+                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                    "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+                    "hex": "0x70a08231",
+                    "nodes": []
+                }
+            ]
+        },
+        {
+            "id": "33",
+            "type": "function",
+            "call_type": "staticcall",
+            "action": "balanceOf",
+            "ignored": false,
+            "parameters": [
+                [
+                    "address"
+                ]
+            ],
+            "values": [
+                "0x928b2dae97fc5d40cb0552815fb5ab071103e20a"
+            ],
+            "values_raw": [
+                "000000000000000000000000928b2dae97fc5d40cb0552815fb5ab071103e20a"
+            ],
+            "sender": "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+            "receiver": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+            "hex": "0x70a08231",
+            "nodes": []
+        },
+        {
+            "id": "34",
+            "type": "function",
+            "call_type": "call",
+            "action": "0xee9c79d",
+            "ignored": false,
+            "parameters": [
+                "a"
+            ],
+            "values": [
+                "0000000000000000000000000000000000000000000009f0a3ca46d037e1209a"
+            ],
+            "values_raw": [
+                "0000000000000000000000000000000000000000000009f0a3ca46d037e1209a",
+                "0000000000000000000000000000000000000000000000000000000000000060",
+                "0000000000000000000000000000000000000000000000000000000000000080",
+                "0000000000000000000000000000000000000000000000000000000000000000",
+                "0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "sender": "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+            "receiver": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+            "hex": "0xee9c79da",
+            "nodes": [
+                {
+                    "id": "34_0",
+                    "type": "function",
+                    "call_type": "staticcall",
+                    "action": "balanceOf",
+                    "ignored": false,
+                    "parameters": [
+                        [
+                            "address"
+                        ]
+                    ],
+                    "values": [
+                        "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                    ],
+                    "values_raw": [
+                        "000000000000000000000000dbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                    ],
+                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                    "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+                    "hex": "0x70a08231",
+                    "nodes": []
+                },
+                {
+                    "id": "34_1",
+                    "type": "function",
+                    "call_type": "call",
+                    "action": "transfer",
+                    "ignored": false,
+                    "parameters": [
+                        [
+                            "address",
+                            "uint256"
+                        ]
+                    ],
+                    "values": [
+                        "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                        6504587095676594472443
+                    ],
+                    "values_raw": [
+                        "000000000000000000000000928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                        "0000000000000000000000000000000000000000000001609d478cbd0934c5fb"
+                    ],
+                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                    "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+                    "hex": "0xa9059cbb",
+                    "nodes": []
+                },
+                {
+                    "id": "34_2",
+                    "type": "function",
+                    "call_type": "staticcall",
+                    "action": "balanceOf",
+                    "ignored": false,
+                    "parameters": [
+                        [
+                            "address"
+                        ]
+                    ],
+                    "values": [
+                        "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                    ],
+                    "values_raw": [
+                        "000000000000000000000000dbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                    ],
+                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                    "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+                    "hex": "0x70a08231",
+                    "nodes": []
+                }
+            ]
+        },
+        {
+            "id": "35",
+            "type": "function",
+            "call_type": "staticcall",
+            "action": "balanceOf",
+            "ignored": false,
+            "parameters": [
+                [
+                    "address"
+                ]
+            ],
+            "values": [
+                "0x928b2dae97fc5d40cb0552815fb5ab071103e20a"
+            ],
+            "values_raw": [
+                "000000000000000000000000928b2dae97fc5d40cb0552815fb5ab071103e20a"
+            ],
+            "sender": "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+            "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+            "hex": "0x70a08231",
+            "nodes": []
+        },
+        {
+            "id": "36",
+            "type": "function",
+            "call_type": "call",
+            "action": "transfer",
+            "ignored": false,
+            "parameters": [
+                [
+                    "address",
+                    "uint256"
+                ]
+            ],
+            "values": [
+                "0x2ba9de5ebca7db023dd1f9abce9100e7590d0000",
+                6504587095676594472443
+            ],
+            "values_raw": [
+                "0000000000000000000000002ba9de5ebca7db023dd1f9abce9100e7590d0000",
+                "0000000000000000000000000000000000000000000001609d478cbd0934c5fb"
+            ],
+            "sender": "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+            "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+            "hex": "0xa9059cbb",
+            "nodes": []
+        },
+        {
+            "id": "37",
+            "type": "function",
+            "call_type": "staticcall",
+            "action": "balanceOf",
+            "ignored": false,
+            "parameters": [
+                [
+                    "address"
+                ]
+            ],
+            "values": [
+                "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31"
+            ],
+            "values_raw": [
+                "000000000000000000000000dbb20a979a92cccce15229e41c9b082d5b5d7e31"
+            ],
+            "sender": "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+            "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+            "hex": "0x70a08231",
+            "nodes": []
+        },
+        {
+            "id": "38",
+            "type": "function",
+            "call_type": "call",
+            "action": "flash",
+            "ignored": false,
+            "parameters": [
+                [
+                    "address",
+                    "address",
+                    "uint256",
+                    "bytes"
+                ]
+            ],
+            "values": [
+                "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                "0x2f92800f57bcd74066f5709f1daa1a4302df875",
+                40909876790334195184019,
+                "0000000000000000000000000000000000000000000000000000000000000080"
+            ],
+            "values_raw": [
+                "000000000000000000000000928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                "00000000000000000000000002f92800f57bcd74066f5709f1daa1a4302df875",
+                "0000000000000000000000000000000000000000000008a9ba96defe03473193",
+                "0000000000000000000000000000000000000000000000000000000000000080",
+                "0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "sender": "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+            "receiver": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+            "hex": "0xbdbc91ab",
+            "nodes": [
+                {
+                    "id": "38_0",
+                    "type": "function",
+                    "call_type": "staticcall",
+                    "action": "poolRewards",
+                    "ignored": false,
+                    "parameters": [
+                        null
+                    ],
+                    "values": [],
+                    "values_raw": [],
+                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                    "receiver": "0x50fbbb6aa935396075f8200b9d1476bba7b2a4c6",
+                    "hex": "0x8bc6beb2",
+                    "nodes": []
+                },
+                {
+                    "id": "38_1",
+                    "type": "function",
+                    "call_type": "staticcall",
+                    "action": "decimals",
+                    "ignored": false,
+                    "parameters": [
+                        null
+                    ],
+                    "values": [],
+                    "values_raw": [],
+                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                    "receiver": "0x6b175474e89094c44da98b954eedeac495271d0f",
+                    "hex": "0x313ce567",
+                    "nodes": []
+                },
+                {
+                    "id": "38_2",
+                    "type": "function",
+                    "call_type": "call",
+                    "action": "transferFrom",
+                    "ignored": false,
+                    "parameters": [
+                        [
+                            "address",
+                            "address",
+                            "uint256"
+                        ]
+                    ],
+                    "values": [
+                        "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                        "0x37b87ba4c3edb420ed4552f1982c983b55d8b9d1",
+                        10000000000000000000
+                    ],
+                    "values_raw": [
+                        "000000000000000000000000928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                        "00000000000000000000000037b87ba4c3edb420ed4552f1982c983b55d8b9d1",
+                        "0000000000000000000000000000000000000000000000008ac7230489e80000"
+                    ],
+                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                    "receiver": "0x6b175474e89094c44da98b954eedeac495271d0f",
+                    "hex": "0x23b872dd",
+                    "nodes": []
+                },
+                {
+                    "id": "38_3",
+                    "type": "function",
+                    "call_type": "staticcall",
+                    "action": "balanceOf",
+                    "ignored": false,
+                    "parameters": [
+                        [
+                            "address"
+                        ]
+                    ],
+                    "values": [
+                        "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                    ],
+                    "values_raw": [
+                        "000000000000000000000000dbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                    ],
+                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                    "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+                    "hex": "0x70a08231",
+                    "nodes": []
+                },
+                {
+                    "id": "38_4",
+                    "type": "function",
+                    "call_type": "call",
+                    "action": "transfer",
+                    "ignored": false,
+                    "parameters": [
+                        [
+                            "address",
+                            "uint256"
+                        ]
+                    ],
+                    "values": [
+                        "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                        40909876790334195184019
+                    ],
+                    "values_raw": [
+                        "000000000000000000000000928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                        "0000000000000000000000000000000000000000000008a9ba96defe03473193"
+                    ],
+                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                    "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+                    "hex": "0xa9059cbb",
+                    "nodes": []
+                },
+                {
+                    "id": "38_5",
+                    "type": "function",
+                    "call_type": "call",
+                    "action": "callback",
+                    "ignored": false,
+                    "parameters": [
+                        [
+                            "bytes"
+                        ]
+                    ],
+                    "values": [
+                        "0000000000000000000000000000000000000000000000000000000000000020"
+                    ],
+                    "values_raw": [
+                        "0000000000000000000000000000000000000000000000000000000000000020",
+                        "0000000000000000000000000000000000000000000000000000000000000000"
+                    ],
+                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                    "receiver": "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                    "hex": "0xe98a5654",
+                    "nodes": [
+                        {
+                            "id": "38_5_0",
+                            "type": "function",
+                            "call_type": "call",
+                            "action": "approve",
+                            "ignored": false,
+                            "parameters": [
+                                [
+                                    "address",
+                                    "uint256"
+                                ]
+                            ],
+                            "values": [
+                                "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                                115792089237316195423570985008687907853269984665640564039457584007913129639935
+                            ],
+                            "values_raw": [
+                                "000000000000000000000000dbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+                            ],
+                            "sender": "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                            "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+                            "hex": "0x095ea7b3",
+                            "nodes": []
+                        },
+                        {
+                            "id": "38_5_1",
+                            "type": "function",
+                            "call_type": "staticcall",
+                            "action": "balanceOf",
+                            "ignored": false,
+                            "parameters": [
+                                [
+                                    "address"
+                                ]
+                            ],
+                            "values": [
+                                "0x928b2dae97fc5d40cb0552815fb5ab071103e20a"
+                            ],
+                            "values_raw": [
+                                "000000000000000000000000928b2dae97fc5d40cb0552815fb5ab071103e20a"
+                            ],
+                            "sender": "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                            "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+                            "hex": "0x70a08231",
+                            "nodes": []
+                        },
+                        {
+                            "id": "38_5_2",
+                            "type": "function",
+                            "call_type": "call",
+                            "action": "bond",
+                            "ignored": false,
+                            "parameters": [
+                                [
+                                    "address",
+                                    "uint256"
+                                ]
+                            ],
+                            "values": [
+                                "0x2f92800f57bcd74066f5709f1daa1a4302df875",
+                                40909876790334195184019
+                            ],
+                            "values_raw": [
+                                "00000000000000000000000002f92800f57bcd74066f5709f1daa1a4302df875",
+                                "0000000000000000000000000000000000000000000008a9ba96defe03473193"
+                            ],
+                            "sender": "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                            "receiver": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                            "hex": "0xa515366a",
+                            "nodes": [
+                                {
+                                    "id": "38_5_2_0",
+                                    "type": "function",
+                                    "call_type": "staticcall",
+                                    "action": "balanceOf",
+                                    "ignored": false,
+                                    "parameters": [
+                                        [
+                                            "address"
+                                        ]
+                                    ],
+                                    "values": [
+                                        "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                                    ],
+                                    "values_raw": [
+                                        "000000000000000000000000dbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                                    ],
+                                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                                    "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+                                    "hex": "0x70a08231",
+                                    "nodes": []
+                                },
+                                {
+                                    "id": "38_5_2_1",
+                                    "type": "function",
+                                    "call_type": "call",
+                                    "action": "transferFrom",
+                                    "ignored": false,
+                                    "parameters": [
+                                        [
+                                            "address",
+                                            "address",
+                                            "uint256"
+                                        ]
+                                    ],
+                                    "values": [
+                                        "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                                        "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                                        40909876790334195184019
+                                    ],
+                                    "values_raw": [
+                                        "000000000000000000000000928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                                        "000000000000000000000000dbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                                        "0000000000000000000000000000000000000000000008a9ba96defe03473193"
+                                    ],
+                                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                                    "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+                                    "hex": "0x23b872dd",
+                                    "nodes": []
+                                },
+                                {
+                                    "id": "38_5_2_2",
+                                    "type": "function",
+                                    "call_type": "staticcall",
+                                    "action": "balanceOf",
+                                    "ignored": false,
+                                    "parameters": [
+                                        [
+                                            "address"
+                                        ]
+                                    ],
+                                    "values": [
+                                        "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                                    ],
+                                    "values_raw": [
+                                        "000000000000000000000000dbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                                    ],
+                                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                                    "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+                                    "hex": "0x70a08231",
+                                    "nodes": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "38_6",
+                    "type": "function",
+                    "call_type": "staticcall",
+                    "action": "balanceOf",
+                    "ignored": false,
+                    "parameters": [
+                        [
+                            "address"
+                        ]
+                    ],
+                    "values": [
+                        "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                    ],
+                    "values_raw": [
+                        "000000000000000000000000dbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                    ],
+                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                    "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+                    "hex": "0x70a08231",
+                    "nodes": []
+                }
+            ]
+        },
+        {
+            "id": "39",
+            "type": "function",
+            "call_type": "staticcall",
+            "action": "balanceOf",
+            "ignored": false,
+            "parameters": [
+                [
+                    "address"
+                ]
+            ],
+            "values": [
+                "0x928b2dae97fc5d40cb0552815fb5ab071103e20a"
+            ],
+            "values_raw": [
+                "000000000000000000000000928b2dae97fc5d40cb0552815fb5ab071103e20a"
+            ],
+            "sender": "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+            "receiver": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+            "hex": "0x70a08231",
+            "nodes": []
+        },
+        {
+            "id": "40",
+            "type": "function",
+            "call_type": "call",
+            "action": "0xee9c79d",
+            "ignored": false,
+            "parameters": [
+                "a"
+            ],
+            "values": [
+                "0000000000000000000000000000000000000000000008938d341515129af633"
+            ],
+            "values_raw": [
+                "0000000000000000000000000000000000000000000008938d341515129af633",
+                "0000000000000000000000000000000000000000000000000000000000000060",
+                "0000000000000000000000000000000000000000000000000000000000000080",
+                "0000000000000000000000000000000000000000000000000000000000000000",
+                "0000000000000000000000000000000000000000000000000000000000000000"
+            ],
+            "sender": "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+            "receiver": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+            "hex": "0xee9c79da",
+            "nodes": [
+                {
+                    "id": "40_0",
+                    "type": "function",
+                    "call_type": "staticcall",
+                    "action": "balanceOf",
+                    "ignored": false,
+                    "parameters": [
+                        [
+                            "address"
+                        ]
+                    ],
+                    "values": [
+                        "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                    ],
+                    "values_raw": [
+                        "000000000000000000000000dbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                    ],
+                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                    "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+                    "hex": "0x70a08231",
+                    "nodes": []
+                },
+                {
+                    "id": "40_1",
+                    "type": "function",
+                    "call_type": "call",
+                    "action": "transfer",
+                    "ignored": false,
+                    "parameters": [
+                        [
+                            "address",
+                            "uint256"
+                        ]
+                    ],
+                    "values": [
+                        "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                        4910719335219740954401
+                    ],
+                    "values_raw": [
+                        "000000000000000000000000928b2dae97fc5d40cb0552815fb5ab071103e20a",
+                        "00000000000000000000000000000000000000000000010a35ebc146b70e4f21"
+                    ],
+                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                    "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+                    "hex": "0xa9059cbb",
+                    "nodes": []
+                },
+                {
+                    "id": "40_2",
+                    "type": "function",
+                    "call_type": "staticcall",
+                    "action": "balanceOf",
+                    "ignored": false,
+                    "parameters": [
+                        [
+                            "address"
+                        ]
+                    ],
+                    "values": [
+                        "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                    ],
+                    "values_raw": [
+                        "000000000000000000000000dbb20a979a92cccce15229e41c9b082d5b5d7e31"
+                    ],
+                    "sender": "0xdbb20a979a92cccce15229e41c9b082d5b5d7e31",
+                    "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+                    "hex": "0x70a08231",
+                    "nodes": []
+                }
+            ]
+        },
+        {
+            "id": "41",
+            "type": "function",
+            "call_type": "staticcall",
+            "action": "balanceOf",
+            "ignored": false,
+            "parameters": [
+                [
+                    "address"
+                ]
+            ],
+            "values": [
+                "0x928b2dae97fc5d40cb0552815fb5ab071103e20a"
+            ],
+            "values_raw": [
+                "000000000000000000000000928b2dae97fc5d40cb0552815fb5ab071103e20a"
+            ],
+            "sender": "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+            "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+            "hex": "0x70a08231",
+            "nodes": []
+        },
+        {
+            "id": "42",
+            "type": "function",
+            "call_type": "call",
+            "action": "transfer",
+            "ignored": false,
+            "parameters": [
+                [
+                    "address",
+                    "uint256"
+                ]
+            ],
+            "values": [
+                "0x2ba9de5ebca7db023dd1f9abce9100e7590d0000",
+                4910719335219740954401
+            ],
+            "values_raw": [
+                "0000000000000000000000002ba9de5ebca7db023dd1f9abce9100e7590d0000",
+                "00000000000000000000000000000000000000000000010a35ebc146b70e4f21"
+            ],
+            "sender": "0x928b2dae97fc5d40cb0552815fb5ab071103e20a",
+            "receiver": "0x02f92800f57bcd74066f5709f1daa1a4302df875",
+            "hex": "0xa9059cbb",
+            "nodes": []
+        }
+    ]
+}
