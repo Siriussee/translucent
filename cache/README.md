@@ -1,0 +1,2 @@
+1. Download `selector_database.json` here from [Google Drive](https://drive.google.com/file/d/1YssdDhTVTgXOxn-xNOuGQniyQ8QwE_rX/view?usp=drive_link).
+2. Download `cc.en.300.bin` here from [fastText](https://fasttext.cc/docs/en/crawl-vectors.html#models)
